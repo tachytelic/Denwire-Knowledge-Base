@@ -123,6 +123,7 @@ CLAUDE.md                      ← this file (auto-loaded by Claude Code)
 system/
   infrastructure.md            ← SCO server, Informix env vars, Python, dbaccess
   php-portal.md                ← PHP 7.4.1, portal architecture, ODBC connection
+  strategix-layout.md          ← /usr/Strategix filesystem layout, directories, prog modules
 db/
   README.md                    ← full table list, module prefix guide
   relationships.md             ← cross-module table relationships
