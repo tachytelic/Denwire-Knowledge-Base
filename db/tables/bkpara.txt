@@ -1,0 +1,35 @@
+
+
+Column name          Type                                    Nulls
+
+bkpar_key            char(1)                                 yes
+bkpar_acctuse        char(1)                                 yes
+bkpar_proof          smallint                                yes
+bkpar_account        char(15)                                yes
+bkpar_voucher        integer                                 yes
+bkpar_intref         integer                                 yes
+bkpar_intprefix      char(4)                                 yes
+bkpar_bacref         smallint                                yes
+bkpar_bacsum         char(1)                                 yes
+bkpar_blksize        integer                                 yes
+bkpar_sectors        smallint                                yes
+bkpar_sides          smallint                                yes
+bkpar_bankdep        char(1)                                 yes
+bkpar_billrec        char(15)                                yes
+bkpar_billpres       char(15)                                yes
+bkpar_billear        char(15)                                yes
+bkpar_billdisc       char(15)                                yes
+bkpar_billpay        char(15)                                yes
+bkpar_billrf         integer                                 yes
+bkpar_billchrg       char(15)                                yes
+bkpar_billvat        char(1)                                 yes
+bkpar_uncleared      char(15)                                yes
+bkpar_paytypes       char(20)                                yes
+bkpar_srccodes       char(20)                                yes
+bkpar_salereg        char(1)                                 yes
+bkpar_purchreg       char(1)                                 yes
+bkpar_ribasub        char(15)                                yes
+bkpar_prodbills      char(1)                                 yes
+bkpar_bksumanal      char(1)                                 yes
+bkpar_ubacsnam       char(1)                                 yes
+

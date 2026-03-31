@@ -1,0 +1,12 @@
+
+
+Column name          Type                                    Nulls
+
+porec_delref         char(8)                                 yes
+porec_mrsref         char(8)                                 yes
+porec_supplier       char(10)                                yes
+porec_branch         char(4)                                 yes
+porec_order          char(13)                                yes
+porec_deldate        date                                    yes
+porec_type           char(1)                                 yes
+

@@ -1,0 +1,19 @@
+
+
+Column name          Type                                    Nulls
+
+bkst_docref          char(8)                                 yes
+bkst_trandate        date                                    yes
+bkst_currency        char(4)                                 yes
+bkst_acctref         char(10)                                yes
+bkst_value           float                                   yes
+bkst_trantype        char(1)                                 yes
+bkst_payname         char(40)                                yes
+bkst_postcnt         smallint                                yes
+bkst_posted          smallint                                yes
+bkst_frequency       char(1)                                 yes
+bkst_mthday          smallint                                yes
+bkst_glacc           char(15)                                yes
+bkst_vatcode         char(1)                                 yes
+bkst_paycode         char(4)                                 yes
+

@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+socom_ordref         char(8)                                 yes
+socom_ordline        smallint                                yes
+socom_comseq         smallint                                yes
+socom_comtype        char(1)                                 yes
+socom_text           char(50)                                yes
+

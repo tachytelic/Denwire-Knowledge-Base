@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+sot_intern           char(10)                                yes
+sot_intdel           char(4)                                 yes
+sot_exterc           char(22)                                yes
+sot_extdel           char(20)                                yes
+

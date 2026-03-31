@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+pobat_batch          char(6)                                 yes
+pobat_battotal       float                                   yes
+pobat_batvalue       float                                   yes
+pobat_author         char(1)                                 yes
+pobat_type           char(1)                                 yes
+pobat_lastdate       date                                    yes
+

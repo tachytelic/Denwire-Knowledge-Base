@@ -1,0 +1,42 @@
+
+
+Column name          Type                                    Nulls
+
+sod_pikloc           char(5)                                 yes
+sod_account          char(10)                                yes
+sod_deladd           char(4)                                 yes
+sod_ordref           char(8)                                 yes
+sod_suffix           smallint                                yes
+sod_bulkref          integer                                 yes
+sod_pickdat          date                                    yes
+sod_delstat          smallint                                yes
+sod_delcomb          smallint                                yes
+sod_parcels          smallint                                yes
+sod_delref           char(8)                                 yes
+sod_receiver         char(30)                                yes
+sod_delname          char(40)                                yes
+sod_delad1           char(30)                                yes
+sod_delad2           char(30)                                yes
+sod_delad3           char(30)                                yes
+sod_delad4           char(30)                                yes
+sod_delad5           char(30)                                yes
+sod_delpost          char(10)                                yes
+sod_carrier          char(10)                                yes
+sod_carser           char(10)                                yes
+sod_custref          char(20)                                yes
+sod_condate          date                                    yes
+sod_contime          smallfloat                              yes
+sod_deldate          date                                    yes
+sod_deltime          smallfloat                              yes
+sod_nobox            smallint                                yes
+sod_ccharge          float                                   yes
+sod_picker           char(10)                                yes
+sod_packer           char(10)                                yes
+sod_confirmed        char(1)                                 yes
+sod_company          char(4)                                 yes
+sod_pickprnt         smallint                                yes
+sod_loadno           integer                                 yes
+sod_colldate         date                                    yes
+sod_colltime         smallfloat                              yes
+sod_totwght          float                                   yes
+

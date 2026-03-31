@@ -1,0 +1,38 @@
+
+
+Column name          Type                                    Nulls
+
+stcu_loc             char(5)                                 yes
+stcu_product         char(40)                                yes
+stcu_year            smallint                                yes
+stcu_period          smallint                                yes
+stcu_totqty          float                                   yes
+stcu_totcost         float                                   yes
+stcu_salqty          float                                   yes
+stcu_salcost         float                                   yes
+stcu_forqty          float                                   yes
+stcu_recqty          float                                   yes
+stcu_reccost         float                                   yes
+stcu_wofqty          float                                   yes
+stcu_wofcost         float                                   yes
+stcu_tfrqty          float                                   yes
+stcu_tfrcost         float                                   yes
+stcu_lostqty         float                                   yes
+stcu_dutycost        float                                   yes
+stcu_dutsqty         float                                   yes
+stcu_dutsval         float                                   yes
+stcu_expqty          float                                   yes
+stcu_expval          float                                   yes
+stcu_tranoqty        float                                   yes
+stcu_tranocost       float                                   yes
+stcu_traniqty        float                                   yes
+stcu_tranicost       float                                   yes
+stcu_dtranqty        float                                   yes
+stcu_dtrancost       float                                   yes
+stcu_saldemand       float                                   yes
+stcu_company         char(4)                                 yes
+stcu_salval          float                                   yes
+stcu_isalqty         float                                   yes
+stcu_isalcost        float                                   yes
+stcu_isalval         float                                   yes
+

@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+sttk_loc             char(5)                                 yes
+sttk_product         char(40)                                yes
+sttk_batch           integer                                 yes
+sttk_bin             char(10)                                yes
+sttk_cstock          float                                   yes
+sttk_chdate          date                                    yes
+sttk_stkqty          float                                   yes
+sttk_stkdate         date                                    yes
+sttk_ref             char(8)                                 yes
+

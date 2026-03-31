@@ -1,0 +1,12 @@
+
+
+Column name          Type                                    Nulls
+
+rfl_reftype          char(1)                                 yes
+rfl_reference        char(10)                                yes
+rfl_userid           char(4)                                 yes
+rfl_progid           char(8)                                 yes
+rfl_termid           char(10)                                yes
+rfl_source           char(1)                                 yes
+rfl_logdate          date                                    yes
+

@@ -1,0 +1,28 @@
+
+
+Column name          Type                                    Nulls
+
+stpi_account         char(10)                                yes
+stpi_del             char(4)                                 yes
+stpi_ordref          char(8)                                 yes
+stpi_suffix          smallint                                yes
+stpi_seq             integer                                 yes
+stpi_location        char(5)                                 yes
+stpi_kefields        char(34)                                yes
+stpi_reqdate         date                                    yes
+stpi_quedate         date                                    yes
+stpi_qtime           smallfloat                              yes
+stpi_status          char(1)                                 yes
+stpi_pickgp          char(4)                                 yes
+stpi_picker          char(4)                                 yes
+stpi_ordpri          smallint                                yes
+stpi_pickpri         smallint                                yes
+stpi_alphacode       char(10)                                yes
+stpi_repcode         char(4)                                 yes
+stpi_vanarea         char(4)                                 yes
+stpi_nolines         smallint                                yes
+stpi_picktype        char(1)                                 yes
+stpi_source          char(1)                                 yes
+stpi_company         char(4)                                 yes
+stpi_pckref          char(8)                                 yes
+

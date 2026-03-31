@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+plcur_supplier       char(10)                                yes
+plcur_trcurr         char(4)                                 yes
+plcur_valid          char(1)                                 yes
+

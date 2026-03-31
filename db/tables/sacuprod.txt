@@ -1,0 +1,17 @@
+
+
+Column name          Type                                    Nulls
+
+sac_customer         char(10)                                yes
+sac_deladd           char(4)                                 yes
+sac_stloc            char(5)                                 yes
+sac_product          char(40)                                yes
+sac_seq              smallint                                yes
+sac_qty              float                                   yes
+sac_price            float                                   yes
+sac_cost             float                                   yes
+sac_dsc              float                                   yes
+sac_idate            date                                    yes
+sac_ordref           char(8)                                 yes
+sac_unitprice        float                                   yes
+

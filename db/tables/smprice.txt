@@ -1,0 +1,39 @@
+
+
+Column name          Type                                    Nulls
+
+smp_ctype            char(1)                                 yes
+smp_curr             char(4)                                 yes
+smp_ptype            char(1)                                 yes
+smp_pdcode           char(40)                                yes
+smp_pricetype        char(1)                                 yes
+smp_value1           float                                   yes
+smp_quant1           float                                   yes
+smp_value2           float                                   yes
+smp_quant2           float                                   yes
+smp_value3           float                                   yes
+smp_quant3           float                                   yes
+smp_value4           float                                   yes
+smp_quant4           float                                   yes
+smp_value5           float                                   yes
+smp_quant5           float                                   yes
+smp_desc             char(40)                                yes
+smp_linkcurr         char(5)                                 yes
+smp_cstbasis         float                                   yes
+smp_salecurr         char(5)                                 yes
+smp_linkrate         float                                   yes
+smp_uplinkvar        float                                   yes
+smp_lolinkvar        float                                   yes
+smp_table            char(10)                                yes
+smp_exterp           char(15)                                yes
+smp_quant6           float                                   yes
+smp_value6           float                                   yes
+smp_quant7           float                                   yes
+smp_value7           float                                   yes
+smp_quant8           float                                   yes
+smp_value8           float                                   yes
+smp_quant9           float                                   yes
+smp_value9           float                                   yes
+smp_quant0           float                                   yes
+smp_value0           float                                   yes
+

@@ -1,0 +1,20 @@
+
+
+Column name          Type                                    Nulls
+
+grdet_report         char(10)                                yes
+grdet_line           integer                                 yes
+grdet_type           char(1)                                 yes
+grdet_desc           char(40)                                yes
+grdet_level          smallint                                yes
+grdet_valtype        char(1)                                 yes
+grdet_prespace       char(1)                                 yes
+grdet_postspace      char(1)                                 yes
+grdet_signrev        char(1)                                 yes
+grdet_addsub         char(1)                                 yes
+grdet_alternate      char(1)                                 yes
+grdet_oper           char(1)                                 yes
+grdet_accuma         char(10)                                yes
+grdet_accumb         char(10)                                yes
+grdet_accumc         char(10)                                yes
+

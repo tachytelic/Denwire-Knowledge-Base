@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+dlft_intercust       char(10)                                yes
+dlft_extercust       char(10)                                yes
+

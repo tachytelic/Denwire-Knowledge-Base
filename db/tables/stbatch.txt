@@ -1,0 +1,36 @@
+
+
+Column name          Type                                    Nulls
+
+stbt_loc             char(5)                                 yes
+stbt_product         char(40)                                yes
+stbt_batch           integer                                 yes
+stbt_desc            char(40)                                yes
+stbt_batref          char(22)                                yes
+stbt_supplier        char(10)                                yes
+stbt_source          char(1)                                 yes
+stbt_trantype        char(1)                                 yes
+stbt_docref          char(8)                                 yes
+stbt_line            smallint                                yes
+stbt_seq             smallint                                yes
+stbt_srcbat          integer                                 yes
+stbt_date            date                                    yes
+stbt_qty             float                                   yes
+stbt_avcost          float                                   yes
+stbt_expdate         date                                    yes
+stbt_recdate         date                                    yes
+stbt_weight          float                                   yes
+stbt_volume          float                                   yes
+stbt_indic           char(1)                                 yes
+stbt_gross           float                                   yes
+stbt_dimension       char(20)                                yes
+stbt_coocode         char(2)                                 yes
+stbt_coccode         char(25)                                yes
+stbt_cociss          char(4)                                 yes
+stbt_cocref          char(12)                                yes
+stbt_mandate         date                                    yes
+stbt_manwk           smallint                                yes
+stbt_manyr           smallint                                yes
+stbt_chdate          date                                    yes
+stbt_status          char(1)                                 yes
+

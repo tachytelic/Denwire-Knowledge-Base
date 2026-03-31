@@ -1,0 +1,43 @@
+
+
+Column name          Type                                    Nulls
+
+socl_supplier        char(10)                                yes
+socl_batch           char(6)                                 yes
+socl_clstat          integer                                 yes
+socl_customer        char(10)                                yes
+socl_rate            float                                   yes
+socl_trandate        date                                    yes
+socl_cltype          char(1)                                 yes
+socl_lntype          char(1)                                 yes
+socl_product         char(15)                                yes
+socl_qty             float                                   yes
+socl_stloc           char(5)                                 yes
+socl_recseq          smallint                                yes
+socl_cossal          float                                   yes
+socl_claim           float                                   yes
+socl_glclaim         float                                   yes
+socl_suppcurr        char(4)                                 yes
+socl_suppcost        float                                   yes
+socl_sdqcost         float                                   yes
+socl_sdqprice        float                                   yes
+socl_ordref          char(8)                                 yes
+socl_invref          char(8)                                 yes
+socl_quotref         char(8)                                 yes
+socl_supparef        char(15)                                yes
+socl_rpdate          date                                    yes
+socl_csource         char(1)                                 yes
+socl_suppprod        char(40)                                yes
+socl_sdcost          float                                   yes
+socl_div             char(4)                                 yes
+socl_company         char(4)                                 yes
+socl_scomp           char(4)                                 yes
+socl_ccomp           char(4)                                 yes
+socl_crecomp         char(4)                                 yes
+socl_suppclref       char(25)                                yes
+socl_suppcrdnt       char(25)                                yes
+socl_sdexpiry        date                                    yes
+socl_procsupp        char(1)                                 yes
+socl_seq             smallint                                yes
+socl_linseq          smallint                                yes
+

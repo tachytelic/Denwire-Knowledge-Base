@@ -1,0 +1,49 @@
+
+
+Column name          Type                                    Nulls
+
+dlpar_key            char(1)                                 yes
+dlpar_master         char(4)                                 yes
+dlpar_year           smallint                                yes
+dlpar_curper         smallint                                yes
+dlpar_proof          smallint                                yes
+dlpar_listbat        char(1)                                 yes
+dlpar_custuse        char(1)                                 yes
+dlpar_archive        char(1)                                 yes
+dlpar_debtor         char(15)                                yes
+dlpar_discount       char(15)                                yes
+dlpar_intref         integer                                 yes
+dlpar_intprefix      char(4)                                 yes
+dlpar_proofreq       char(1)                                 yes
+dlpar_settcost       char(1)                                 yes
+dlpar_setttcode      integer                                 yes
+dlpar_settsusp       char(15)                                yes
+dlpar_srsales        char(15)                                yes
+dlpar_bank           char(10)                                yes
+dlpar_srintref       integer                                 yes
+dlpar_srintpre       char(4)                                 yes
+dlpar_scrnprnt       char(1)                                 yes
+dlpar_tcode          integer                                 yes
+dlpar_srauthor       char(1)                                 yes
+dlpar_states         char(1)                                 yes
+dlpar_alphatype      char(1)                                 yes
+dlpar_dirdeb         char(1)                                 yes
+dlpar_debnsusp       char(15)                                yes
+dlpar_credtrwo       float                                   yes
+dlpar_divused        char(1)                                 yes
+dlpar_fintax         char(1)                                 yes
+dlpar_finpcent       smallfloat                              yes
+dlpar_findays        smallint                                yes
+dlpar_finstats       char(10)                                yes
+dlpar_fintypes       char(10)                                yes
+dlpar_finglacc       char(15)                                yes
+dlpar_shortpay       char(1)                                 yes
+dlpar_igquery        char(1)                                 yes
+dlpar_dpsupp         char(1)                                 yes
+dlpar_autoacc        char(1)                                 yes
+dlpar_nextacc        integer                                 yes
+dlpar_ocpay          char(1)                                 yes
+dlpar_paymeth        char(1)                                 yes
+dlpar_codmeth        char(1)                                 yes
+dlpar_woffvalue      float                                   yes
+

@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+xxsu_supplier        char(10)                                yes
+xxsu_year            smallint                                yes
+xxsu_turnover        float                                   yes
+

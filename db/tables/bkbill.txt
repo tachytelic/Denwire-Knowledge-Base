@@ -1,0 +1,29 @@
+
+
+Column name          Type                                    Nulls
+
+bkb_billref          integer                                 yes
+bkb_acctref          char(10)                                yes
+bkb_billtype         char(1)                                 yes
+bkb_agree            char(15)                                yes
+bkb_billdate         date                                    yes
+bkb_billrc           date                                    yes
+bkb_billdue          date                                    yes
+bkb_billsub          date                                    yes
+bkb_status           char(1)                                 yes
+bkb_source           char(1)                                 yes
+bkb_account          char(10)                                yes
+bkb_currency         char(4)                                 yes
+bkb_value            float                                   yes
+bkb_glvalue          float                                   yes
+bkb_settle           float                                   yes
+bkb_div              char(4)                                 yes
+bkb_banksort         char(10)                                yes
+bkb_acctno           char(35)                                yes
+bkb_confirmed        char(1)                                 yes
+bkb_valdate          date                                    yes
+bkb_editran          char(1)                                 yes
+bkb_unalloc          float                                   yes
+bkb_factored         char(1)                                 yes
+bkb_subno            smallint                                yes
+

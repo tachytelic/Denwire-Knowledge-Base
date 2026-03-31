@@ -1,0 +1,23 @@
+
+
+Column name          Type                                    Nulls
+
+cmb_billname         char(40)                                yes
+cmb_variant          char(4)                                 yes
+cmb_desc             char(40)                                yes
+cmb_type             char(1)                                 yes
+cmb_product          char(40)                                yes
+cmb_minqty           float                                   yes
+cmb_prodqty          float                                   yes
+cmb_maxqty           float                                   yes
+cmb_yield            float                                   yes
+cmb_stdcost          float                                   yes
+cmb_version          char(4)                                 yes
+cmb_drawing          char(8)                                 yes
+cmb_loc              char(5)                                 yes
+cmb_dept             char(3)                                 yes
+cmb_section          char(3)                                 yes
+cmb_duration         smallint                                yes
+cmb_wodeftype        char(1)                                 yes
+cmb_tolerance        float                                   yes
+

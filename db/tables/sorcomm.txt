@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+sorc_retno           char(8)                                 yes
+sorc_line            integer                                 yes
+sorc_seq             integer                                 yes
+sorc_text            char(50)                                yes
+

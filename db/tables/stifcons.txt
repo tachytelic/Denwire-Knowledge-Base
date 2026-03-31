@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+stifc_reqref         char(8)                                 yes
+stifc_consign        char(25)                                yes
+stifc_contract       char(10)                                yes
+stifc_carser         char(10)                                yes
+

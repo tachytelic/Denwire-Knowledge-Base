@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+bkcc_acctref         char(10)                                yes
+bkcc_paycode         char(4)                                 yes
+bkcc_valdays         smallint                                yes
+bkcc_charge          float                                   yes
+bkcc_paydef          char(1)                                 yes
+

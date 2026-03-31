@@ -1,0 +1,18 @@
+
+
+Column name          Type                                    Nulls
+
+stn_company          char(4)                                 yes
+stn_supplier         char(10)                                yes
+stn_trdate           date                                    yes
+stn_seq              serial                                  no
+stn_billdate         date                                    yes
+stn_product          char(15)                                yes
+stn_quantity         float                                   yes
+stn_loc              char(5)                                 yes
+stn_customer         char(10)                                yes
+stn_docref           char(8)                                 yes
+stn_invref           char(8)                                 yes
+stn_cost             float                                   yes
+stn_value            float                                   yes
+

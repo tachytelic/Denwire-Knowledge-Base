@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+adlb_ledger          char(1)                                 yes
+adlb_doctype         char(1)                                 yes
+adlb_prefix          char(4)                                 yes
+adlb_ltype           char(1)                                 yes
+adlb_label           char(10)                                yes
+adlb_ljob            char(10)                                yes
+adlb_lsubcode        char(4)                                 yes
+adlb_purge           char(1)                                 yes
+

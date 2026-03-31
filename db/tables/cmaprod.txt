@@ -1,0 +1,12 @@
+
+
+Column name          Type                                    Nulls
+
+cmap_product         char(40)                                yes
+cmap_altprod         char(40)                                yes
+cmap_priority        smallint                                yes
+cmap_code1           char(1)                                 yes
+cmap_code2           char(1)                                 yes
+cmap_modify          char(1)                                 yes
+cmap_text            char(50)                                yes
+

@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+cmqt_testno          char(10)                                yes
+cmqt_desc            char(30)                                yes
+cmqt_extref          char(30)                                yes
+cmqt_expect          char(30)                                yes
+cmqt_uom             char(1)                                 yes
+cmqt_type            char(1)                                 yes
+cmqt_decimal         smallint                                yes
+cmqt_minval          float                                   yes
+cmqt_maxval          float                                   yes
+

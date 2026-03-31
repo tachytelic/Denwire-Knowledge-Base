@@ -1,0 +1,41 @@
+
+
+Column name          Type                                    Nulls
+
+soinv_invref         char(8)                                 yes
+soinv_ordref         char(8)                                 yes
+soinv_account        char(10)                                yes
+soinv_edino          char(10)                                yes
+soinv_invdate        date                                    yes
+soinv_doctot         float                                   yes
+soinv_vatc1          char(1)                                 yes
+soinv_vatc2          char(1)                                 yes
+soinv_vatc3          char(1)                                 yes
+soinv_vatc4          char(1)                                 yes
+soinv_vatc5          char(1)                                 yes
+soinv_gds1           float                                   yes
+soinv_gds2           float                                   yes
+soinv_gds3           float                                   yes
+soinv_gds4           float                                   yes
+soinv_gds5           float                                   yes
+soinv_gdstot         float                                   yes
+soinv_setdisc        float                                   yes
+soinv_setlpc         float                                   yes
+soinv_termdesc       char(30)                                yes
+soinv_totdisc        float                                   yes
+soinv_vrate1         float                                   yes
+soinv_vrate2         float                                   yes
+soinv_vrate3         float                                   yes
+soinv_vrate4         float                                   yes
+soinv_vrate5         float                                   yes
+soinv_vatexch        float                                   yes
+soinv_proof          integer                                 yes
+soinv_type           char(1)                                 yes
+soinv_glbatch        char(6)                                 yes
+soinv_currency       char(4)                                 yes
+soinv_vat1           float                                   yes
+soinv_vat2           float                                   yes
+soinv_vat3           float                                   yes
+soinv_vat4           float                                   yes
+soinv_vat5           float                                   yes
+

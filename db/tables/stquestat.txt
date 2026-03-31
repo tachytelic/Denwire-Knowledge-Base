@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+stq_statdate         date                                    yes
+stq_pickgp           char(4)                                 yes
+stq_picker           char(4)                                 yes
+stq_queued           integer                                 yes
+stq_picked           integer                                 yes
+stq_dequeue          integer                                 yes
+

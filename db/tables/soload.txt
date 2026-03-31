@@ -1,0 +1,18 @@
+
+
+Column name          Type                                    Nulls
+
+sol_loadno           integer                                 yes
+sol_desdate          date                                    yes
+sol_routeno          smallint                                yes
+sol_vectype          integer                                 yes
+sol_drvtype          integer                                 yes
+sol_rlen             smallint                                yes
+sol_rname            char(8)                                 yes
+sol_vname            char(8)                                 yes
+sol_dname            char(16)                                yes
+sol_text1            char(50)                                yes
+sol_text2            char(50)                                yes
+sol_status           char(1)                                 yes
+sol_stime            integer                                 yes
+

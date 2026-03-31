@@ -1,0 +1,19 @@
+
+
+Column name          Type                                    Nulls
+
+stf_loc              char(5)                                 yes
+stf_product          char(40)                                yes
+stf_seq              integer                                 yes
+stf_recdate          date                                    yes
+stf_qty              float                                   yes
+stf_value            float                                   yes
+stf_rate             float                                   yes
+stf_currency         char(4)                                 yes
+stf_source           char(1)                                 yes
+stf_ourref           char(8)                                 yes
+stf_line             smallint                                yes
+stf_sequence         smallint                                yes
+stf_indic            char(1)                                 yes
+stf_baseval          float                                   yes
+

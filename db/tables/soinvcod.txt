@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+soic_invcode         char(4)                                 yes
+soic_invdesc         char(30)                                yes
+

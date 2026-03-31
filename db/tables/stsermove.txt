@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+stsm_loc             char(5)                                 yes
+stsm_product         char(40)                                yes
+stsm_trandate        date                                    yes
+stsm_trantime        smallfloat                              yes
+stsm_movement        integer                                 yes
+stsm_serial          char(22)                                yes
+stsm_qty             integer                                 yes
+stsm_seq             serial                                  no
+

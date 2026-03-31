@@ -1,0 +1,24 @@
+
+
+Column name          Type                                    Nulls
+
+txst_regref          smallint                                yes
+txst_year            smallint                                yes
+txst_period          smallint                                yes
+txst_docreg          char(1)                                 yes
+txst_taxcode         char(1)                                 yes
+txst_pvat            float                                   yes
+txst_pgoods          float                                   yes
+txst_svat            float                                   yes
+txst_sgoods          float                                   yes
+txst_eupvat          float                                   yes
+txst_eupgoods        float                                   yes
+txst_euacqvat        float                                   yes
+txst_euacqgood       float                                   yes
+txst_eusvat          float                                   yes
+txst_eusgoods        float                                   yes
+txst_rowpvat         float                                   yes
+txst_rowsvat         float                                   yes
+txst_rowsgoods       float                                   yes
+txst_rowpgoods       float                                   yes
+

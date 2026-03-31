@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+glper_year           smallint                                yes
+glper_period         smallint                                yes
+glper_desc           char(20)                                yes
+glper_perend         date                                    yes
+glper_weeks          smallint                                yes
+

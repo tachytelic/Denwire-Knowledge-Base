@@ -1,0 +1,635 @@
+// Denwire Strategix ERP - Sales Order (SO) Tables
+// Generated from Informix 7.23 "denw" database column definitions
+// Note: Informix 7.23 has no enforced FK constraints - all refs are conventional
+// Paste into https://dbdiagram.io to render
+
+// ============================================================
+// CORE ORDER TABLES
+// ============================================================
+
+Table sohead [note: 'Sales order header - one row per order'] {
+  soh_ordref     char(8)    [note: 'Order reference - PK']
+  soh_account    char(10)   [note: 'Customer account code']
+  soh_userid     char(4)    [note: 'Operator who entered order']
+  soh_orddate    date       [note: 'Order date']
+  soh_reqdate    date       [note: 'Requested delivery date']
+  soh_status     char(1)    [note: 'O=open, C=complete, H=hold etc']
+  soh_ordtype    char(1)    [note: 'Order type code']
+  soh_repcode    char(4)    [note: 'Sales rep code']
+  soh_area       char(4)    [note: 'Sales area']
+  soh_deladd     char(4)    [note: 'Delivery address code']
+  soh_currency   char(4)    [note: 'Currency code']
+  soh_terms      char(4)    [note: 'Payment terms']
+  soh_ordval     float      [note: 'Order value (ex VAT)']
+  soh_outvat     float      [note: 'VAT amount']
+  soh_ordcost    float      [note: 'Total cost value']
+  soh_invval     float      [note: 'Invoiced value to date']
+  soh_payval     float      [note: 'Payments received']
+  soh_stopcode   char(1)    [note: 'Credit stop code']
+  soh_stloc      char(5)    [note: 'Default stock location']
+  soh_loadno     integer    [note: 'FK > soload.sol_loadno']
+  soh_company    char(4)    [note: 'Company code']
+  soh_div        char(4)    [note: 'Division']
+  soh_mastord    char(8)    [note: 'FK > sohead.soh_ordref (master order)']
+  soh_source     char(8)    [note: 'Source order ref (e.g. quote)']
+  soh_vanarea    char(4)    [note: 'Van area for delivery routing']
+  soh_orddate    date
+  soh_delname    char(40)   [note: 'Delivery name']
+  soh_delad1     char(30)
+  soh_delad2     char(30)
+  soh_delad3     char(30)
+  soh_delad4     char(30)
+  soh_delad5     char(30)
+  soh_delpost    char(10)
+  soh_author     char(4)    [note: 'Authorising user']
+  soh_ref1       char(15)   [note: 'Customer reference 1']
+  soh_ref2       char(15)   [note: 'Customer reference 2']
+  soh_pigrp      char(3)    [note: 'Pick group']
+}
+
+Table soitem [note: 'Order line items - one row per line'] {
+  soi_ordref     char(8)    [note: 'FK > sohead.soh_ordref']
+  soi_seq        smallint   [note: 'Line sequence (composite PK with ordref)']
+  soi_linseq     smallint   [note: 'Sub-line sequence']
+  soi_product    char(40)   [note: 'Product code']
+  soi_desc       char(40)   [note: 'Product description']
+  soi_ittype     char(1)    [note: 'Item type (S=stock, N=non-stock etc)']
+  soi_itstk      char(1)    [note: 'Stock flag']
+  soi_itqty      float      [note: 'Ordered quantity']
+  soi_entqty     float      [note: 'Entered quantity']
+  soi_adjqty     float      [note: 'Adjusted quantity']
+  soi_pickqty    float      [note: 'Picked quantity']
+  soi_canqty     float      [note: 'Cancelled quantity']
+  soi_price      float      [note: 'Unit selling price']
+  soi_basepri    float      [note: 'Base list price']
+  soi_itcost     float      [note: 'Unit cost']
+  soi_invval     float      [note: 'Invoiced value']
+  soi_cossal     float      [note: 'Cost of sale']
+  soi_discper    float      [note: 'Discount %']
+  soi_vatcode    char(1)    [note: 'VAT code']
+  soi_itstat     char(1)    [note: 'Line status']
+  soi_stloc      char(5)    [note: 'Stock location']
+  soi_bin        char(10)   [note: 'Bin location']
+  soi_batch      integer    [note: 'Batch number']
+  soi_invref     char(8)    [note: 'FK > soinvoice.soinv_invref']
+  soi_delref     char(8)    [note: 'FK > sodeliv.sod_delref']
+  soi_suffix     smallint   [note: 'Delivery suffix']
+  soi_loadno     integer    [note: 'FK > soload.sol_loadno']
+  soi_ndeldat    date       [note: 'Next delivery date']
+  soi_reqdate    date       [note: 'Requested date']
+  soi_invdate    date       [note: 'Invoice date']
+  soi_despdate   date       [note: 'Despatched date']
+  soi_rep        char(4)    [note: 'Rep code (can differ from header)']
+  soi_supplier   char(10)   [note: 'Supplier (for direct orders)']
+  soi_claim      integer    [note: 'Claim number']
+  soi_quotref    char(8)    [note: 'FK > sosdhead.sosdh_quotref (SD quote)']
+  soi_custprod   char(40)   [note: "Customer's product code"]
+  soi_weight     float
+  soi_vol        float
+  soi_uom        char(1)    [note: 'Unit of measure']
+  soi_vanarea    char(4)
+  soi_parent     smallint   [note: 'Parent line (for config items)']
+  soi_pigrp      char(3)
+}
+
+// ============================================================
+// INVOICE
+// ============================================================
+
+Table soinvoice [note: 'Invoice header records'] {
+  soinv_invref    char(8)    [note: 'Invoice reference - PK']
+  soinv_ordref    char(8)    [note: 'FK > sohead.soh_ordref']
+  soinv_account   char(10)   [note: 'Customer account']
+  soinv_invdate   date       [note: 'Invoice date']
+  soinv_type      char(1)    [note: 'I=invoice, C=credit note']
+  soinv_doctot    float      [note: 'Document total inc VAT']
+  soinv_gdstot    float      [note: 'Goods total ex VAT']
+  soinv_totdisc   float      [note: 'Total discount']
+  soinv_setdisc   float      [note: 'Settlement discount %']
+  soinv_currency  char(4)
+  soinv_vatexch   float      [note: 'VAT exchange rate']
+  soinv_proof     integer    [note: 'GL posting proof number']
+  soinv_glbatch   char(6)    [note: 'GL batch reference']
+  soinv_vatc1     char(1)
+  soinv_vatc2     char(1)
+  soinv_vatc3     char(1)
+  soinv_vatc4     char(1)
+  soinv_vatc5     char(1)
+  soinv_gds1      float
+  soinv_gds2      float
+  soinv_gds3      float
+  soinv_gds4      float
+  soinv_gds5      float
+  soinv_vat1      float
+  soinv_vat2      float
+  soinv_vat3      float
+  soinv_vat4      float
+  soinv_vat5      float
+}
+
+// ============================================================
+// DELIVERY
+// ============================================================
+
+Table sodeliv [note: 'Delivery consignment header'] {
+  sod_delref      char(8)    [note: 'Delivery reference - PK']
+  sod_ordref      char(8)    [note: 'FK > sohead.soh_ordref']
+  sod_account     char(10)   [note: 'Customer account']
+  sod_suffix      smallint   [note: 'Order suffix']
+  sod_pikloc      char(5)    [note: 'Pick location']
+  sod_pickdat     date       [note: 'Pick date']
+  sod_delstat     smallint   [note: 'Delivery status']
+  sod_deldate     date       [note: 'Delivery date']
+  sod_condate     date       [note: 'Confirmed date']
+  sod_carrier     char(10)   [note: 'Carrier code']
+  sod_carser      char(10)   [note: 'Carrier service']
+  sod_loadno      integer    [note: 'FK > soload.sol_loadno']
+  sod_picker      char(10)
+  sod_packer      char(10)
+  sod_confirmed   char(1)
+  sod_parcels     smallint
+  sod_totwght     float
+  sod_ccharge     float      [note: 'Carriage charge']
+  sod_custref     char(20)   [note: 'Customer delivery ref']
+  sod_delname     char(40)
+  sod_delad1      char(30)
+  sod_delad2      char(30)
+  sod_delad3      char(30)
+  sod_delad4      char(30)
+  sod_delad5      char(30)
+  sod_delpost     char(10)
+  sod_company     char(4)
+}
+
+// ============================================================
+// RETURNS
+// ============================================================
+
+Table sorhead [note: 'Returns (RMA) header'] {
+  sorh_retno      char(8)    [note: 'Return reference - PK']
+  sorh_customer   char(10)   [note: 'Customer account']
+  sorh_origso     char(8)    [note: 'FK > sohead.soh_ordref (original order)']
+  sorh_soref      char(8)    [note: 'FK > sohead.soh_ordref (replacement order)']
+  sorh_crref      char(8)    [note: 'FK > soinvoice.soinv_invref (credit note)']
+  sorh_dateret    date       [note: 'Date returned']
+  sorh_datecom    date       [note: 'Date completed']
+  sorh_status     char(1)
+  sorh_reason     char(4)
+  sorh_repcode    char(4)
+  sorh_area       char(4)
+  sorh_loadno     integer    [note: 'FK > soload.sol_loadno']
+  sorh_company    char(4)
+  sorh_vanarea    char(4)
+  sorh_auth       char(4)    [note: 'Authorising user']
+  sorh_colname    char(40)   [note: 'Collection address']
+  sorh_colad1     char(30)
+  sorh_colad2     char(30)
+  sorh_colad3     char(30)
+  sorh_colad4     char(30)
+  sorh_colad5     char(30)
+  sorh_colpost    char(10)
+}
+
+Table soritem [note: 'Returns line items'] {
+  sori_retno      char(8)    [note: 'FK > sorhead.sorh_retno']
+  sori_seq        integer    [note: 'Line sequence']
+  sori_product    char(40)
+  sori_qty        float
+  sori_uom        char(1)
+  sori_loc        char(5)
+  sori_bin        char(10)
+  sori_costpr     float
+  sori_sellpr     float
+  sori_origso     char(8)    [note: 'FK > sohead.soh_ordref']
+  sori_defect     char(4)
+  sori_reason     char(4)
+  sori_date1      date
+  sori_stat1      char(1)
+  sori_date2      date
+  sori_stat2      char(1)
+}
+
+Table sorcomm [note: 'Returns comments'] {
+  sorc_retno      char(8)    [note: 'FK > sorhead.sorh_retno']
+  sorc_line       integer
+  sorc_seq        integer
+  sorc_text       char(50)
+}
+
+// ============================================================
+// PICKING
+// ============================================================
+
+Table sopick [note: 'Pick list header'] {
+  sopi_pid        integer    [note: 'Pick ID - PK']
+  sopi_ordref     char(8)    [note: 'FK > sohead.soh_ordref']
+  sopi_status     char(1)
+  sopi_loc        char(5)
+  sopi_pickdate   date
+  sopi_picktime   smallfloat
+  sopi_lineno     smallint
+  sopi_suffix     smallint
+  sopi_bulkref    integer
+}
+
+Table sounpick [note: 'Reversed pick records'] {
+  soun_unqkey     serial     [note: 'PK (serial)']
+  soun_ordref     char(8)    [note: 'FK > sohead.soh_ordref']
+  soun_line       smallint
+  soun_batch      integer
+  soun_bin        char(10)
+  soun_serial     char(22)
+  soun_qty        float
+  soun_trandate   date
+}
+
+// ============================================================
+// COMMENTS
+// ============================================================
+
+Table socomm [note: 'Order line comments'] {
+  socom_ordref    char(8)    [note: 'FK > sohead.soh_ordref']
+  socom_ordline   smallint
+  socom_comseq    smallint
+  socom_comtype   char(1)
+  socom_text      char(50)
+}
+
+// ============================================================
+// PAYMENTS
+// ============================================================
+
+Table sopay [note: 'Order payments (cash/card/BACS)'] {
+  sopy_seq        serial     [note: 'PK (serial)']
+  sopy_ordref     char(8)    [note: 'FK > sohead.soh_ordref']
+  sopy_payref     char(8)
+  sopy_customer   char(10)
+  sopy_method     char(8)    [note: 'Payment method']
+  sopy_payval     float
+  sopy_actdate    date
+  sopy_status     char(1)
+  sopy_cardnum    char(20)
+  sopy_author     char(20)   [note: 'Auth code']
+  sopy_batch      char(6)
+  sopy_paycode    char(4)
+}
+
+// ============================================================
+// AUDIT
+// ============================================================
+
+Table soaudit [note: 'Change audit trail for orders'] {
+  sou_seq         integer    [note: 'Sequence - PK']
+  sou_ordref      char(8)    [note: 'FK > sohead.soh_ordref']
+  sou_user        char(4)
+  sou_type        char(1)    [note: 'Change type']
+  sou_product     char(40)
+  sou_before      float
+  sou_after       float
+  sou_datover     date
+  sou_timeover    float
+  sou_account     char(10)
+  sou_lineseq     smallint
+  sou_ref         char(20)
+}
+
+// ============================================================
+// LOAD / VAN ROUTING
+// ============================================================
+
+Table soload [note: 'Van load and route planning'] {
+  sol_loadno      integer    [note: 'Load number - PK']
+  sol_desdate     date       [note: 'Despatch date']
+  sol_routeno     smallint
+  sol_status      char(1)
+  sol_rname       char(8)    [note: 'Route name']
+  sol_vname       char(8)    [note: 'Vehicle name']
+  sol_dname       char(16)   [note: 'Driver name']
+  sol_text1       char(50)
+  sol_text2       char(50)
+  sol_stime       integer
+}
+
+Table sovan [note: 'Van schedule - links orders to van areas'] {
+  sov_vanarea     char(4)
+  sov_ordref      char(8)    [note: 'FK > sohead.soh_ordref']
+  sov_suffix      smallint
+  sov_delref      char(8)    [note: 'FK > sodeliv.sod_delref']
+  sov_date        date
+  sov_postcd      char(10)
+  sov_weight      float
+  sov_cubvol      float
+  sov_stloc       char(5)
+}
+
+// ============================================================
+// CONSIGNMENTS
+// ============================================================
+
+Table socons [note: 'Consignment tracking (carrier booking)'] {
+  soco_line       serial     [note: 'PK (serial)']
+  soco_consign    char(25)   [note: 'Consignment note number']
+  soco_ordref     char(8)    [note: 'FK > sohead.soh_ordref']
+  soco_suffix     smallint
+  soco_delref     char(8)    [note: 'FK > sodeliv.sod_delref']
+  soco_contract   char(10)
+  soco_carser     char(10)
+  soco_condate    date
+  soco_deldate    date
+  soco_confirmed  char(1)
+  soco_status     smallint
+  soco_receiver   char(30)
+}
+
+// ============================================================
+// SUPPLIER DIRECT (SD) QUOTES
+// ============================================================
+
+Table sosdhead [note: 'Supplier direct quote header'] {
+  sosdh_quotref    char(8)    [note: 'Quote reference - PK']
+  sosdh_supplier   char(10)
+  sosdh_customer   char(10)
+  sosdh_status     char(1)
+  sosdh_expiry     date
+  sosdh_credate    date
+  sosdh_opid       char(4)
+  sosdh_supparef   char(15)   [note: "Supplier's agreed ref"]
+  sosdh_suppcurr   char(4)
+  sosdh_intproj    char(15)
+  sosdh_extproj    char(15)
+  sosdh_scomp      char(4)
+  sosdh_ccomp      char(4)
+}
+
+Table sosditem [note: 'Supplier direct quote lines'] {
+  sosdi_quotref    char(8)    [note: 'FK > sosdhead.sosdh_quotref']
+  sosdi_lineno     smallint
+  sosdi_product    char(40)
+  sosdi_qqty       float      [note: 'Quoted qty']
+  sosdi_qcost      float      [note: 'Quoted cost']
+  sosdi_qprice     float      [note: 'Quoted sell price']
+  sosdi_shipqty    float
+  sosdi_shipcost   float
+  sosdi_shipprice  float
+  sosdi_ncost      float
+  sosdi_sprice     float
+  sosdi_margin     float
+  sosdi_lnstat     char(1)
+  sosdi_resqty     float
+  sosdi_qclaimed   float
+  sosdi_vclaimed   float
+  sosdi_extref     char(15)
+}
+
+// ============================================================
+// CLAIMS / REBATES
+// ============================================================
+
+Table soclaim [note: 'Supplier claim/rebate lines'] {
+  socl_seq        smallint   [note: 'Sequence']
+  socl_supplier   char(10)
+  socl_customer   char(10)
+  socl_ordref     char(8)    [note: 'FK > sohead.soh_ordref']
+  socl_invref     char(8)    [note: 'FK > soinvoice.soinv_invref']
+  socl_quotref    char(8)    [note: 'FK > sosdhead.sosdh_quotref']
+  socl_batch      char(6)
+  socl_clstat     integer
+  socl_trandate   date
+  socl_cltype     char(1)
+  socl_product    char(15)
+  socl_qty        float
+  socl_claim      float
+  socl_glclaim    float
+  socl_cossal     float
+  socl_suppcost   float
+  socl_suppcurr   char(4)
+  socl_rpdate     date
+  socl_div        char(4)
+  socl_company    char(4)
+}
+
+// ============================================================
+// RECOVERY / PROFITABILITY
+// ============================================================
+
+Table sorecov [note: 'Recovery/profitability lines per order'] {
+  sore_ordref     char(8)    [note: 'FK > sohead.soh_ordref']
+  sore_seq        smallint
+  sore_ordtype    char(1)
+  sore_customer   char(10)
+  sore_product    char(15)
+  sore_quantity   float
+  sore_price      float
+  sore_cossal     float
+  sore_value      float
+  sore_margin     float
+  sore_profit     char(1)
+  sore_reqdate    date
+  sore_stopcode   char(1)
+}
+
+// ============================================================
+// MASTER ORDERS (CALL-OFF / BLANKET)
+// ============================================================
+
+Table somast [note: 'Links master blanket orders to call-off sub-orders'] {
+  som_master      char(8)    [note: 'FK > sohead.soh_ordref (master)']
+  som_subord      char(8)    [note: 'FK > sohead.soh_ordref (call-off)']
+  som_customer    char(10)
+  som_record      char(1)
+  som_type        char(1)
+}
+
+// ============================================================
+// CONFIGURED ITEMS
+// ============================================================
+
+Table soconfig [note: 'Configured product component lines'] {
+  socf_ordref     char(8)    [note: 'FK > sohead.soh_ordref']
+  socf_ordline    integer    [note: 'FK > soitem.soi_seq']
+  socf_seq        integer
+  socf_product    char(15)
+  socf_qty        float
+  socf_type       char(1)
+  socf_sellpr     float
+  socf_cost       float
+}
+
+// ============================================================
+// INVOICE EXCEPTIONS
+// ============================================================
+
+Table soinvex [note: 'Invoice plug adjustments / exceptions'] {
+  sox_proof       integer
+  sox_seq         integer
+  sox_ordref      char(8)    [note: 'FK > sohead.soh_ordref']
+  sox_invref      char(8)    [note: 'FK > soinvoice.soinv_invref']
+  sox_opid        char(4)
+  sox_reason      char(1)
+  sox_runtime     integer
+  sox_txplg1      char(40)
+  sox_txplg2      char(40)
+  sox_nuplg1      float
+  sox_nuplg2      float
+}
+
+// ============================================================
+// ITEM INDEX
+// ============================================================
+
+Table soiindex [note: 'Lightweight product index per order (fast lookup)'] {
+  soii_ordref     char(8)    [note: 'FK > sohead.soh_ordref']
+  soii_seq        smallint
+  soii_product    char(40)
+  soii_loc        char(5)
+  soii_status     char(1)
+}
+
+// ============================================================
+// HISTORY TABLES (mirror structure of live tables)
+// ============================================================
+
+Table sohish [note: 'Historical copy of sohead (archived orders)'] {
+  sos_ordref      char(8)    [note: 'Order reference']
+  sos_account     char(10)
+  sos_userid      char(4)
+  sos_orddate     date
+  sos_reqdate     date
+  sos_status      char(1)
+  sos_ordtype     char(1)
+  sos_repcode     char(4)
+  sos_area        char(4)
+  sos_currency    char(4)
+  sos_ordval      float
+  sos_ordcost     float
+  sos_invval      float
+  sos_company     char(4)
+}
+
+Table soitemh [note: 'Historical copy of soitem (archived order lines)'] {
+  soz_ordref      char(8)    [note: 'FK > sohish.sos_ordref']
+  soz_seq         smallint
+  soz_product     char(40)
+  soz_desc        char(40)
+  soz_itqty       float
+  soz_price       float
+  soz_itcost      float
+  soz_cossal      float
+  soz_invval      float
+  soz_itstat      char(1)
+  soz_invref      char(8)
+  soz_rep         char(4)
+}
+
+// ============================================================
+// LOOKUP / REFERENCE TABLES
+// ============================================================
+
+Table soinvcod [note: 'Invoice type code lookup'] {
+  soic_invcode    char(4)    [note: 'PK']
+  soic_invdesc    char(30)
+}
+
+Table sopcodes [note: 'General SO code lookup (type+code+desc)'] {
+  soc_type        char(1)    [note: 'Code type classifier']
+  soc_code        char(10)   [note: 'Code value']
+  soc_desc        char(40)
+}
+
+Table sodels [note: 'Delivery charge rate bands (14-tier weight breaks)'] {
+  sodl_trcode     char(1)
+  sodl_deldesc    char(30)
+  sodl_pcode      char(40)
+  sodl_area       char(4)
+  sodl_pgroup     char(4)
+  sodl_brk1       float
+  sodl_brk2       float
+  sodl_brk3       float
+  sodl_del1       float
+  sodl_del2       float
+  sodl_del3       float
+  sodl_cost1      float
+  sodl_cost2      float
+  sodl_cost3      float
+}
+
+Table soclink [note: 'Customer/product foreign currency link pricing'] {
+  sock_type       char(1)
+  sock_customer   char(10)
+  sock_pcode      char(15)
+  sock_linkcurr   char(5)
+  sock_salecurr   char(5)
+  sock_linkrate   float
+  sock_cstbasis   float
+  sock_uplinkvar  float
+  sock_lolinkvar  float
+}
+
+Table sotcust [note: 'Temporary customer addresses (used during order entry)'] {
+  sot_intern      char(10)
+  sot_intdel      char(4)
+  sot_exterc      char(22)
+  sot_extdel      char(20)
+}
+
+// ============================================================
+// RELATIONSHIPS
+// ============================================================
+
+// Order header -> lines
+Ref: soitem.soi_ordref    > sohead.soh_ordref
+// Order header -> delivery
+Ref: sodeliv.sod_ordref   > sohead.soh_ordref
+// Order header -> invoice
+Ref: soinvoice.soinv_ordref > sohead.soh_ordref
+// Order line -> invoice
+Ref: soitem.soi_invref    > soinvoice.soinv_invref
+// Order line -> delivery
+Ref: soitem.soi_delref    > sodeliv.sod_delref
+// Order header -> load
+Ref: sohead.soh_loadno    > soload.sol_loadno
+Ref: sodeliv.sod_loadno   > soload.sol_loadno
+Ref: soitem.soi_loadno    > soload.sol_loadno
+// Order header -> van schedule
+Ref: sovan.sov_ordref     > sohead.soh_ordref
+Ref: sovan.sov_delref     > sodeliv.sod_delref
+// Order header -> pick
+Ref: sopick.sopi_ordref   > sohead.soh_ordref
+// Order header -> unpick
+Ref: sounpick.soun_ordref > sohead.soh_ordref
+// Order header -> comments
+Ref: socomm.socom_ordref  > sohead.soh_ordref
+// Order header -> payments
+Ref: sopay.sopy_ordref    > sohead.soh_ordref
+// Order header -> audit
+Ref: soaudit.sou_ordref   > sohead.soh_ordref
+// Order header -> recovery
+Ref: sorecov.sore_ordref  > sohead.soh_ordref
+// Order header -> consignments
+Ref: socons.soco_ordref   > sohead.soh_ordref
+Ref: socons.soco_delref   > sodeliv.sod_delref
+// Order header -> config items
+Ref: soconfig.socf_ordref > sohead.soh_ordref
+// Invoice exceptions
+Ref: soinvex.sox_ordref   > sohead.soh_ordref
+Ref: soinvex.sox_invref   > soinvoice.soinv_invref
+// Item index
+Ref: soiindex.soii_ordref > sohead.soh_ordref
+// Master / call-off
+Ref: somast.som_master    > sohead.soh_ordref
+Ref: somast.som_subord    > sohead.soh_ordref
+// Returns
+Ref: soritem.sori_retno   > sorhead.sorh_retno
+Ref: sorcomm.sorc_retno   > sorhead.sorh_retno
+Ref: sorhead.sorh_origso  > sohead.soh_ordref
+Ref: soritem.sori_origso  > sohead.soh_ordref
+Ref: sorhead.sorh_crref   > soinvoice.soinv_invref
+// SD Quotes
+Ref: sosditem.sosdi_quotref > sosdhead.sosdh_quotref
+Ref: soitem.soi_quotref   > sosdhead.sosdh_quotref
+// Claims
+Ref: soclaim.socl_ordref  > sohead.soh_ordref
+Ref: soclaim.socl_invref  > soinvoice.soinv_invref
+Ref: soclaim.socl_quotref > sosdhead.sosdh_quotref
+// History mirrors live
+Ref: soitemh.soz_ordref   > sohish.sos_ordref

@@ -1,0 +1,18 @@
+
+
+Column name          Type                                    Nulls
+
+lcs_agent            char(8)                                 yes
+lcs_costtype         char(1)                                 yes
+lcs_seq              smallint                                yes
+lcs_overtype         char(4)                                 yes
+lcs_cost             float                                   yes
+lcs_stockacc         char(1)                                 yes
+lcs_glacc            char(15)                                yes
+lcs_glunall          char(15)                                yes
+lcs_desc             char(30)                                yes
+lcs_allocby          char(1)                                 yes
+lcs_calcmeth         char(1)                                 yes
+lcs_calcrate         char(1)                                 yes
+lcs_calcperc         smallfloat                              yes
+

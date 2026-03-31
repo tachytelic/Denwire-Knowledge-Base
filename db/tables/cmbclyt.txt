@@ -1,0 +1,51 @@
+
+
+Column name          Type                                    Nulls
+
+cmbc_barlyt          char(4)                                 yes
+cmbc_desc            char(40)                                yes
+cmbc_numlines        smallint                                yes
+cmbc_bcqty           float                                   yes
+cmbc_prdl1           smallint                                yes
+cmbc_prdo1           smallint                                yes
+cmbc_prdn1           smallint                                yes
+cmbc_prdl2           smallint                                yes
+cmbc_prdo2           smallint                                yes
+cmbc_prdn2           smallint                                yes
+cmbc_prdl3           smallint                                yes
+cmbc_prdo3           smallint                                yes
+cmbc_prdn3           smallint                                yes
+cmbc_prdl4           smallint                                yes
+cmbc_prdo4           smallint                                yes
+cmbc_prdn4           smallint                                yes
+cmbc_prdl5           smallint                                yes
+cmbc_prdo5           smallint                                yes
+cmbc_prdn5           smallint                                yes
+cmbc_prdl6           smallint                                yes
+cmbc_prdo6           smallint                                yes
+cmbc_prdn6           smallint                                yes
+cmbc_prdl7           smallint                                yes
+cmbc_prdo7           smallint                                yes
+cmbc_prdn7           smallint                                yes
+cmbc_prdl8           smallint                                yes
+cmbc_prdo8           smallint                                yes
+cmbc_prdn8           smallint                                yes
+cmbc_prdl9           smallint                                yes
+cmbc_prdo9           smallint                                yes
+cmbc_prdn9           smallint                                yes
+cmbc_prdl10          smallint                                yes
+cmbc_prdo10          smallint                                yes
+cmbc_prdn10          smallint                                yes
+cmbc_pqtyl           smallint                                yes
+cmbc_pqtyo           smallint                                yes
+cmbc_pqtyn           smallint                                yes
+cmbc_btrfl           smallint                                yes
+cmbc_btrfo           smallint                                yes
+cmbc_btrfn           smallint                                yes
+cmbc_mnwkl           smallint                                yes
+cmbc_mnwko           smallint                                yes
+cmbc_mnwkn           smallint                                yes
+cmbc_mnyrl           smallint                                yes
+cmbc_mnyro           smallint                                yes
+cmbc_mnyrn           smallint                                yes
+

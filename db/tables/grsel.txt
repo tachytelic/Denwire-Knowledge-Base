@@ -1,0 +1,12 @@
+
+
+Column name          Type                                    Nulls
+
+grsel_report         char(10)                                yes
+grsel_line           integer                                 yes
+grsel_seq            smallint                                yes
+grsel_glacc          char(15)                                yes
+grsel_incomit        char(1)                                 yes
+grsel_anal1          char(15)                                yes
+grsel_anal2          char(15)                                yes
+

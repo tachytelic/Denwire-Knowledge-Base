@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+cmrt_saleloc         char(5)                                 yes
+cmrt_route           char(5)                                 yes
+cmrt_seq             smallint                                yes
+cmrt_location        char(5)                                 yes
+

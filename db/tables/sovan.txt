@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+sov_vanarea          char(4)                                 yes
+sov_ordref           char(8)                                 yes
+sov_suffix           smallint                                yes
+sov_postcd           char(10)                                yes
+sov_weight           float                                   yes
+sov_cubvol           float                                   yes
+sov_stloc            char(5)                                 yes
+sov_date             date                                    yes
+sov_delref           char(8)                                 yes
+

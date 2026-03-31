@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+txc_country          char(2)                                 yes
+txc_desc             char(30)                                yes
+txc_ec               char(1)                                 yes
+txc_stat             char(2)                                 yes
+txc_saleregs         char(10)                                yes
+txc_purchregs        char(10)                                yes
+txc_factcode         char(2)                                 yes
+txc_vatreg           char(1)                                 yes
+

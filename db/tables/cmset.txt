@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+cmset_set            char(10)                                yes
+cmset_desc           char(40)                                yes
+

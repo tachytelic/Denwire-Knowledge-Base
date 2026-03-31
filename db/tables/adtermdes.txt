@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+addes_lang           char(2)                                 yes
+addes_terms          char(4)                                 yes
+addes_desc           char(30)                                yes
+addes_langdesc       char(30)                                yes
+

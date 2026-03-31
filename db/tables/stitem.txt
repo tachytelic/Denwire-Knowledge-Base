@@ -1,0 +1,34 @@
+
+
+Column name          Type                                    Nulls
+
+stit_ref             char(8)                                 yes
+stit_line            smallint                                yes
+stit_seq             smallint                                yes
+stit_loc             char(5)                                 yes
+stit_toloc           char(5)                                 yes
+stit_product         char(40)                                yes
+stit_desc            char(40)                                yes
+stit_qty             float                                   yes
+stit_stat            char(1)                                 yes
+stit_cost            float                                   yes
+stit_batch           integer                                 yes
+stit_bin             char(10)                                yes
+stit_tobin           char(10)                                yes
+stit_tcode           integer                                 yes
+stit_ccost           float                                   yes
+stit_req             char(1)                                 yes
+stit_suffix          smallint                                yes
+stit_bulkref         integer                                 yes
+stit_issdate         date                                    yes
+stit_issuser         char(4)                                 yes
+stit_recdate         date                                    yes
+stit_recuser         char(4)                                 yes
+stit_poorder         char(13)                                yes
+stit_poline          smallint                                yes
+stit_poseq           smallint                                yes
+stit_linkqty         float                                   yes
+stit_ordtype         char(1)                                 yes
+stit_pckref          char(8)                                 yes
+stit_pigrp           char(3)                                 yes
+

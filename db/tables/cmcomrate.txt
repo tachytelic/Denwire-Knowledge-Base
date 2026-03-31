@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+cmcr_comrate         char(4)                                 yes
+cmcr_comdesc         char(30)                                yes
+cmcr_compoints       float                                   yes
+

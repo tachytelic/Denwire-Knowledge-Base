@@ -1,0 +1,30 @@
+
+
+Column name          Type                                    Nulls
+
+txt_year             smallint                                yes
+txt_period           smallint                                yes
+txt_regref           smallint                                yes
+txt_source           char(1)                                 yes
+txt_trantype         char(1)                                 yes
+txt_ourref           char(8)                                 yes
+txt_taxcode          char(1)                                 yes
+txt_trandate         date                                    yes
+txt_goodsval         float                                   yes
+txt_taxvalue         float                                   yes
+txt_proof            smallint                                yes
+txt_fproof           smallint                                yes
+txt_taxreturn        char(1)                                 yes
+txt_batch            char(6)                                 yes
+txt_summflag         char(1)                                 yes
+txt_account          char(10)                                yes
+txt_seq              serial                                  no
+txt_coid             char(4)                                 yes
+txt_ectran           char(1)                                 yes
+txt_ecvatmth         smallint                                yes
+txt_ecvatyr          smallint                                yes
+txt_docreg           char(1)                                 yes
+txt_creatdate        date                                    yes
+txt_extref           char(25)                                yes
+txt_opdate           date                                    yes
+

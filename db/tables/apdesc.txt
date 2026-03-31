@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+apdsc_type           char(1)                                 yes
+apdsc_code           char(4)                                 yes
+apdsc_name           char(30)                                yes
+

@@ -1,0 +1,18 @@
+
+
+Column name          Type                                    Nulls
+
+nph_notepad          char(8)                                 yes
+nph_desc             char(30)                                yes
+nph_keygroup         char(10)                                yes
+nph_keyprompt        char(10)                                yes
+nph_keyleng          smallint                                yes
+nph_secgroup         char(1)                                 yes
+nph_seclevel         smallint                                yes
+nph_val              char(1)                                 yes
+nph_userid           char(4)                                 yes
+nph_retain           smallint                                yes
+nph_program          char(9)                                 yes
+nph_keygrp2          char(10)                                yes
+nph_seq              integer                                 yes
+

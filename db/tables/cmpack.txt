@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+cmk_pack             char(10)                                yes
+cmk_muom             char(1)                                 yes
+cmk_bulk             char(1)                                 yes
+cmk_tolerance        float                                   yes
+cmk_vol              float                                   yes
+cmk_desc             char(30)                                yes
+cmk_weight           float                                   yes
+cmk_paktyp           char(4)                                 yes
+

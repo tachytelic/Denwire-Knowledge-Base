@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+dlcos_customer       char(10)                                yes
+dlcos_costcode       char(1)                                 yes
+dlcos_costper        float                                   yes
+dlcos_costauto       char(1)                                 yes
+dlcos_basis          char(1)                                 yes
+dlcos_glacc          char(15)                                yes
+

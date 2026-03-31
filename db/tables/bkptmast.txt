@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+bkpt_paycode         char(4)                                 yes
+bkpt_desc            char(30)                                yes
+bkpt_paymeth         char(1)                                 yes
+

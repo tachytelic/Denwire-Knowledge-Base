@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+cmsan_level          smallint                                yes
+cmsan_code           char(22)                                yes
+cmsan_desc           char(30)                                yes
+

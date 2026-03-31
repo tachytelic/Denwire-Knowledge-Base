@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+cmbl_atype           char(1)                                 yes
+cmbl_assem           char(40)                                yes
+cmbl_variant         char(4)                                 yes
+cmbl_sequence        integer                                 yes
+cmbl_effdate         date                                    yes
+cmbl_ctype           char(1)                                 yes
+cmbl_product         char(40)                                yes
+cmbl_seq             smallint                                yes
+cmbl_desc            char(50)                                yes
+

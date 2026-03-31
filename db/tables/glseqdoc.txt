@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+glseq_type           char(1)                                 yes
+glseq_docregid       char(1)                                 yes
+glseq_docprefix      char(4)                                 yes
+glseq_seqdocref      integer                                 yes
+glseq_desc           char(30)                                yes
+glseq_lastdate       date                                    yes
+glseq_userid         char(4)                                 yes
+glseq_lastpage       smallint                                yes
+

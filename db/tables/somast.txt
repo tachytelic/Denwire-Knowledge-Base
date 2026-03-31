@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+som_master           char(8)                                 yes
+som_subord           char(8)                                 yes
+som_customer         char(10)                                yes
+som_record           char(1)                                 yes
+som_type             char(1)                                 yes
+

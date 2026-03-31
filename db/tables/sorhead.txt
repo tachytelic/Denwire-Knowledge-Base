@@ -1,0 +1,42 @@
+
+
+Column name          Type                                    Nulls
+
+sorh_retno           char(8)                                 yes
+sorh_customer        char(10)                                yes
+sorh_sloc            char(5)                                 yes
+sorh_origso          char(8)                                 yes
+sorh_dateret         date                                    yes
+sorh_datecom         date                                    yes
+sorh_status          char(1)                                 yes
+sorh_soref           char(8)                                 yes
+sorh_crref           char(8)                                 yes
+sorh_poref           char(13)                                yes
+sorh_reason          char(4)                                 yes
+sorh_version         integer                                 yes
+sorh_notereq         char(1)                                 yes
+sorh_cusdoc          char(15)                                yes
+sorh_auth            char(4)                                 yes
+sorh_repcode         char(4)                                 yes
+sorh_area            char(4)                                 yes
+sorh_delcode         char(4)                                 yes
+sorh_caddr           char(10)                                yes
+sorh_colname         char(40)                                yes
+sorh_colad1          char(30)                                yes
+sorh_colad2          char(30)                                yes
+sorh_colad3          char(30)                                yes
+sorh_colad4          char(30)                                yes
+sorh_colad5          char(30)                                yes
+sorh_colpost         char(10)                                yes
+sorh_coltel          char(20)                                yes
+sorh_colfax          char(20)                                yes
+sorh_cnote           char(10)                                yes
+sorh_loadno          integer                                 yes
+sorh_contact         char(30)                                yes
+sorh_transp          char(30)                                yes
+sorh_vanarea         char(4)                                 yes
+sorh_inext           char(1)                                 yes
+sorh_extstat         char(1)                                 yes
+sorh_company         char(4)                                 yes
+sorh_cusndcode       char(10)                                yes
+

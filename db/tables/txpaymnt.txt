@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+txp_regref           smallint                                yes
+txp_year             smallint                                yes
+txp_period           smallint                                yes
+txp_docref           char(8)                                 yes
+txp_paydate          date                                    yes
+txp_payval           float                                   yes
+txp_ledger           char(1)                                 yes
+txp_account          char(10)                                yes
+txp_batch            char(6)                                 yes
+

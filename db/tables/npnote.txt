@@ -1,0 +1,23 @@
+
+
+Column name          Type                                    Nulls
+
+npn_notepad          char(8)                                 yes
+npn_keyval           char(40)                                yes
+npn_date             date                                    yes
+npn_time             char(5)                                 yes
+npn_seq              serial                                  no
+npn_actflag          char(1)                                 yes
+npn_actuserid        char(4)                                 yes
+npn_actdate          date                                    yes
+npn_text             char(10)                                yes
+npn_title            char(40)                                yes
+npn_cat              char(4)                                 yes
+npn_repfreq          char(1)                                 yes
+npn_repqty           smallint                                yes
+npn_userid           char(4)                                 yes
+npn_action           char(1)                                 yes
+npn_prestat          char(1)                                 yes
+npn_poststat         char(1)                                 yes
+npn_line             smallint                                yes
+

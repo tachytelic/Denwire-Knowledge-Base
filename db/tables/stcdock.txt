@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+stcd_loc             char(5)                                 yes
+stcd_system          char(1)                                 yes
+stcd_ordref          char(8)                                 yes
+

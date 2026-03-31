@@ -1,0 +1,17 @@
+
+
+Column name          Type                                    Nulls
+
+polc_order           char(13)                                yes
+polc_line            smallint                                yes
+polc_costmeth        char(1)                                 yes
+polc_wt              char(2)                                 yes
+polc_costcode        char(15)                                yes
+polc_subcode         char(4)                                 yes
+polc_tcode           integer                                 yes
+polc_qty             float                                   yes
+polc_received        float                                   yes
+polc_comqty          float                                   yes
+polc_ccost           float                                   yes
+polc_source          char(1)                                 yes
+

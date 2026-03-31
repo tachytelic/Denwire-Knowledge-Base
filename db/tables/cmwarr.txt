@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+cmwr_code            char(10)                                yes
+cmwr_desc            char(40)                                yes
+cmwr_period          smallint                                yes
+cmwr_perunit         char(1)                                 yes
+cmwr_xperiod         smallint                                yes
+

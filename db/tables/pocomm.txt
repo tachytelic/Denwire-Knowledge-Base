@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+pocom_order          char(13)                                yes
+pocom_line           smallint                                yes
+pocom_seq            smallint                                yes
+pocom_type           char(1)                                 yes
+pocom_text           char(50)                                yes
+

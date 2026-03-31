@@ -1,0 +1,51 @@
+
+
+Column name          Type                                    Nulls
+
+dla_customer         char(10)                                yes
+dla_trandate         date                                    yes
+dla_ourref           char(8)                                 yes
+dla_type             char(1)                                 yes
+dla_status           char(1)                                 yes
+dla_docref           char(8)                                 yes
+dla_batch            char(6)                                 yes
+dla_source           char(1)                                 yes
+dla_value            float                                   yes
+dla_discvalue        float                                   yes
+dla_payvalue         float                                   yes
+dla_taxvalue         float                                   yes
+dla_terms            char(4)                                 yes
+dla_duedate          date                                    yes
+dla_proof            smallint                                yes
+dla_fproof           smallint                                yes
+dla_pendflg          char(1)                                 yes
+dla_userid           char(4)                                 yes
+dla_seq              serial                                  no
+dla_period           smallint                                yes
+dla_contract         char(12)                                yes
+dla_year             smallint                                yes
+dla_coid             char(4)                                 yes
+dla_custord          char(25)                                yes
+dla_glvalue          float                                   yes
+dla_noreval          char(1)                                 yes
+dla_valind           char(1)                                 yes
+dla_loc              char(5)                                 yes
+dla_voucher          integer                                 yes
+dla_orgvalue         float                                   yes
+dla_div              char(4)                                 yes
+dla_subacc           char(10)                                yes
+dla_paymeth          char(1)                                 yes
+dla_cleared          date                                    yes
+dla_creatdate        date                                    yes
+dla_fact1op          char(2)                                 yes
+dla_fact2op          char(2)                                 yes
+dla_trcurr           char(4)                                 yes
+dla_trcval           float                                   yes
+dla_trdval           float                                   yes
+dla_trpval           float                                   yes
+dla_trxval           float                                   yes
+dla_troval           float                                   yes
+dla_dmcount          integer                                 yes
+dla_paycode          char(4)                                 yes
+dla_opdate           date                                    yes
+

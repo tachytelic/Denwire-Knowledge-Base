@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+sacom_code1          char(4)                                 yes
+sacom_code2          char(4)                                 yes
+sacom_rate           float                                   yes
+sacom_type           char(1)                                 yes
+

@@ -1,0 +1,20 @@
+
+
+Column name          Type                                    Nulls
+
+lcit_shipref         char(8)                                 yes
+lcit_line            smallint                                yes
+lcit_order           char(13)                                yes
+lcit_poline          smallint                                yes
+lcit_product         char(40)                                yes
+lcit_quantity        float                                   yes
+lcit_supccost        float                                   yes
+lcit_supcost         float                                   yes
+lcit_fobcost         float                                   yes
+lcit_cifcost         float                                   yes
+lcit_totcost         float                                   yes
+lcit_contnum         char(20)                                yes
+lcit_weight          float                                   yes
+lcit_volume          float                                   yes
+lcit_received        char(1)                                 yes
+

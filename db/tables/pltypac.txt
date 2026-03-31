@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+plty_stype           char(1)                                 yes
+plty_cntacc          char(15)                                yes
+

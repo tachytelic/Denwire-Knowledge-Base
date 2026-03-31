@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+dlrep_customer       char(10)                                yes
+dlrep_rep            char(4)                                 yes
+

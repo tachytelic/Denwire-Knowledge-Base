@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+soii_ordref          char(8)                                 yes
+soii_seq             smallint                                yes
+soii_loc             char(5)                                 yes
+soii_product         char(40)                                yes
+soii_status          char(1)                                 yes
+

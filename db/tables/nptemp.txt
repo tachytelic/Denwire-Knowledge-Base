@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+npt_notepad          char(8)                                 yes
+npt_action           char(1)                                 yes
+npt_template         char(4)                                 yes
+npt_seq              smallint                                yes
+npt_cat              char(4)                                 yes
+npt_actuserid        char(4)                                 yes
+npt_prestat          char(1)                                 yes
+npt_poststat         char(1)                                 yes
+npt_title            char(40)                                yes
+

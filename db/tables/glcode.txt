@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+glcd_ctype           char(4)                                 yes
+glcd_code            char(22)                                yes
+glcd_desc            char(30)                                yes
+

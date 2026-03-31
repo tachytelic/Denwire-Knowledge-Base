@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+cmspr_set            char(10)                                yes
+cmspr_product        char(40)                                yes
+

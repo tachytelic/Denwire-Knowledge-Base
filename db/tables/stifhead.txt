@@ -1,0 +1,58 @@
+
+
+Column name          Type                                    Nulls
+
+stifh_reqref         char(8)                                 yes
+stifh_whoproc        char(1)                                 yes
+stifh_command        char(8)                                 yes
+stifh_nolines        smallint                                yes
+stifh_reqdate        date                                    yes
+stifh_trcode         char(1)                                 yes
+stifh_company        char(4)                                 yes
+stifh_ordref         char(8)                                 yes
+stifh_customer       char(10)                                yes
+stifh_srcloc         char(5)                                 yes
+stifh_system         char(1)                                 yes
+stifh_toloc          char(5)                                 yes
+stifh_tname          char(40)                                yes
+stifh_tcusref        char(25)                                yes
+stifh_tphone         char(20)                                yes
+stifh_tfax           char(20)                                yes
+stifh_temail         char(60)                                yes
+stifh_taddr1         char(30)                                yes
+stifh_taddr2         char(30)                                yes
+stifh_taddr3         char(30)                                yes
+stifh_taddr4         char(30)                                yes
+stifh_taddr5         char(30)                                yes
+stifh_tpcode         char(10)                                yes
+stifh_curr           char(4)                                 yes
+stifh_value          float                                   yes
+stifh_tcntry         char(2)                                 yes
+stifh_vanarea        char(4)                                 yes
+stifh_tcontact       char(36)                                yes
+stifh_code1          char(5)                                 yes
+stifh_code2          char(5)                                 yes
+stifh_code3          char(5)                                 yes
+stifh_fwdpick        char(1)                                 yes
+stifh_deldays        char(7)                                 yes
+stifh_pickins        char(100)                               yes
+stifh_orig           char(4)                                 yes
+stifh_oemail         char(60)                                yes
+stifh_confirm        char(1)                                 yes
+stifh_docprint       char(1)                                 yes
+stifh_repick         char(1)                                 yes
+stifh_carrier        char(10)                                yes
+stifh_carser         char(10)                                yes
+stifh_custref        char(20)                                yes
+stifh_condate        date                                    yes
+stifh_contime        smallfloat                              yes
+stifh_picker         char(10)                                yes
+stifh_packer         char(10)                                yes
+stifh_nobox          smallint                                yes
+stifh_hold           char(1)                                 yes
+stifh_shipcurr       char(4)                                 yes
+stifh_shipcost       float                                   yes
+stifh_serial         serial                                  no
+stifh_cod            char(1)                                 yes
+stifh_compdel        char(1)                                 yes
+

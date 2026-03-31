@@ -1,0 +1,17 @@
+
+
+Column name          Type                                    Nulls
+
+stp_loc              char(5)                                 yes
+stp_product          char(40)                                yes
+stp_batch            integer                                 yes
+stp_bin              char(10)                                yes
+stp_qty              float                                   yes
+stp_value            float                                   yes
+stp_allstk           float                                   yes
+stp_status           char(1)                                 yes
+stp_rate             float                                   yes
+stp_currency         char(4)                                 yes
+stp_expdate          date                                    yes
+stp_baseval          float                                   yes
+

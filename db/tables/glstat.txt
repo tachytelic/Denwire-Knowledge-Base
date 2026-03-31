@@ -1,0 +1,48 @@
+
+
+Column name          Type                                    Nulls
+
+gls_account          char(15)                                yes
+gls_year             smallint                                yes
+gls_rectype          char(1)                                 yes
+gls_openbal          float                                   yes
+gls_p1act            float                                   yes
+gls_p1bud            float                                   yes
+gls_p2act            float                                   yes
+gls_p2bud            float                                   yes
+gls_p3act            float                                   yes
+gls_p3bud            float                                   yes
+gls_p4act            float                                   yes
+gls_p4bud            float                                   yes
+gls_p5act            float                                   yes
+gls_p5bud            float                                   yes
+gls_p6act            float                                   yes
+gls_p6bud            float                                   yes
+gls_p7act            float                                   yes
+gls_p7bud            float                                   yes
+gls_p8act            float                                   yes
+gls_p8bud            float                                   yes
+gls_p9act            float                                   yes
+gls_p9bud            float                                   yes
+gls_p10act           float                                   yes
+gls_p10bud           float                                   yes
+gls_p11act           float                                   yes
+gls_p11bud           float                                   yes
+gls_p12act           float                                   yes
+gls_p12bud           float                                   yes
+gls_p13act           float                                   yes
+gls_p13bud           float                                   yes
+gls_p1crd            float                                   yes
+gls_p2crd            float                                   yes
+gls_p3crd            float                                   yes
+gls_p4crd            float                                   yes
+gls_p5crd            float                                   yes
+gls_p6crd            float                                   yes
+gls_p7crd            float                                   yes
+gls_p8crd            float                                   yes
+gls_p9crd            float                                   yes
+gls_p10crd           float                                   yes
+gls_p11crd           float                                   yes
+gls_p12crd           float                                   yes
+gls_p13crd           float                                   yes
+

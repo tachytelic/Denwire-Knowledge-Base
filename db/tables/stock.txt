@@ -1,0 +1,56 @@
+
+
+Column name          Type                                    Nulls
+
+stk_product          char(40)                                yes
+stk_loc              char(5)                                 yes
+stk_stkqty           float                                   yes
+stk_value            float                                   yes
+stk_avcost           float                                   yes
+stk_minqty           float                                   yes
+stk_reorder          float                                   yes
+stk_maxqty           float                                   yes
+stk_origcost         float                                   yes
+stk_latecost         float                                   yes
+stk_ospurch          float                                   yes
+stk_chdate           date                                    yes
+stk_chcat            char(1)                                 yes
+stk_whatif           float                                   yes
+stk_allstk           float                                   yes
+stk_backord          float                                   yes
+stk_fwdord           float                                   yes
+stk_calqty           float                                   yes
+stk_lastsale         date                                    yes
+stk_quotord          float                                   yes
+stk_buyer            char(4)                                 yes
+stk_nextseq          integer                                 yes
+stk_fifoseq          integer                                 yes
+stk_binref           char(10)                                yes
+stk_avval            float                                   yes
+stk_fival            float                                   yes
+stk_lastpurch        date                                    yes
+stk_lastmov          date                                    yes
+stk_ordstat          char(1)                                 yes
+stk_oswop            float                                   yes
+stk_unavqty          float                                   yes
+stk_ositr            float                                   yes
+stk_pickbin          char(10)                                yes
+stk_zone             char(10)                                yes
+stk_resvpo           float                                   yes
+stk_cat              char(1)                                 yes
+stk_credate          date                                    yes
+stk_mancat           char(1)                                 yes
+stk_inspbin          char(10)                                yes
+stk_holdbin          char(10)                                yes
+stk_resqty           float                                   yes
+stk_basfival         float                                   yes
+stk_basavval         float                                   yes
+stk_baseval          float                                   yes
+stk_islqty           float                                   yes
+stk_isldate          date                                    yes
+stk_linkqty          float                                   yes
+stk_fpadj            float                                   yes
+stk_ccat             char(1)                                 yes
+stk_manccat          char(1)                                 yes
+stk_pbstat           char(1)                                 yes
+

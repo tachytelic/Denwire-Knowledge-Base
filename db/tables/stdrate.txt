@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+stdr_dutycod         char(4)                                 yes
+stdr_desc            char(30)                                yes
+stdr_acctype         char(1)                                 yes
+stdr_excise          float                                   yes
+stdr_excacc          char(15)                                yes
+stdr_import          float                                   yes
+stdr_impacc          char(15)                                yes
+stdr_effdate         date                                    yes
+

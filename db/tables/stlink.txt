@@ -1,0 +1,19 @@
+
+
+Column name          Type                                    Nulls
+
+stlin_dsource        char(1)                                 yes
+stlin_dordref        char(8)                                 yes
+stlin_dordline       integer                                 yes
+stlin_ssource        char(1)                                 yes
+stlin_sordref        char(13)                                yes
+stlin_sordline       integer                                 yes
+stlin_type           char(1)                                 yes
+stlin_product        char(40)                                yes
+stlin_loc            char(5)                                 yes
+stlin_qty            float                                   yes
+stlin_reqdate        date                                    yes
+stlin_priority       char(1)                                 yes
+stlin_supdate        date                                    yes
+stlin_resseq         smallint                                yes
+

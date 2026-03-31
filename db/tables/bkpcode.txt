@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+bkpc_paycode         char(10)                                yes
+bkpc_paydesc         char(30)                                yes
+bkpc_account         char(15)                                yes
+bkpc_taxcode         char(1)                                 yes
+

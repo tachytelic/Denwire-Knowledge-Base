@@ -1,0 +1,38 @@
+
+
+Column name          Type                                    Nulls
+
+plpar_key            char(1)                                 yes
+plpar_master         char(4)                                 yes
+plpar_year           smallint                                yes
+plpar_curper         smallint                                yes
+plpar_proof          smallint                                yes
+plpar_listbat        char(1)                                 yes
+plpar_suppuse        char(1)                                 yes
+plpar_authorind      char(1)                                 yes
+plpar_costedvat      char(1)                                 yes
+plpar_archive        char(1)                                 yes
+plpar_creditor       char(15)                                yes
+plpar_discount       char(15)                                yes
+plpar_intref         integer                                 yes
+plpar_intprefix      char(4)                                 yes
+plpar_proofreq       char(1)                                 yes
+plpar_settcost       char(1)                                 yes
+plpar_setttcode      integer                                 yes
+plpar_settsusp       char(15)                                yes
+plpar_scrnprnt       char(1)                                 yes
+plpar_pendreq        char(1)                                 yes
+plpar_dupcheck       char(1)                                 yes
+plpar_jobbank        char(1)                                 yes
+plpar_acctref        char(10)                                yes
+plpar_alphatype      char(1)                                 yes
+plpar_unasusp        char(15)                                yes
+plpar_debnsusp       char(15)                                yes
+plpar_ndprefix       char(1)                                 yes
+plpar_divused        char(1)                                 yes
+plpar_export         char(1)                                 yes
+plpar_stpuracc       char(15)                                yes
+plpar_miscrev        char(15)                                yes
+plpar_remitprt       char(1)                                 yes
+plpar_futpwarn       char(1)                                 yes
+

@@ -1,0 +1,30 @@
+
+
+Column name          Type                                    Nulls
+
+cmgrp_tcode          integer                                 yes
+cmgrp_group          char(4)                                 yes
+cmgrp_desc           char(30)                                yes
+cmgrp_type           char(1)                                 yes
+cmgrp_hiprofit       float                                   yes
+cmgrp_loprofit       float                                   yes
+cmgrp_cvac           char(15)                                yes
+cmgrp_stacc          char(15)                                yes
+cmgrp_cosac          char(15)                                yes
+cmgrp_salesac        char(15)                                yes
+cmgrp_ovacc          char(15)                                yes
+cmgrp_nsacc          char(15)                                yes
+cmgrp_authuser       char(4)                                 yes
+cmgrp_secgroup       char(1)                                 yes
+cmgrp_seclevel       char(1)                                 yes
+cmgrp_manalloc       char(1)                                 yes
+cmgrp_percup         float                                   yes
+cmgrp_team           char(4)                                 yes
+cmgrp_grnsusp        char(15)                                yes
+cmgrp_discacc        char(15)                                yes
+cmgrp_sdcopy         char(1)                                 yes
+cmgrp_abprofit       float                                   yes
+cmgrp_sdbrowse       char(1)                                 yes
+cmgrp_exvaracc       char(15)                                yes
+cmgrp_route          char(5)                                 yes
+

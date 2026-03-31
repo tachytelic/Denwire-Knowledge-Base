@@ -1,0 +1,3 @@
+Error in line 1
+Near character position 1
+

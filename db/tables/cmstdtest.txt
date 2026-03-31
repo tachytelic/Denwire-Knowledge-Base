@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+cmtst_product        char(40)                                yes
+cmtst_testno         char(10)                                yes
+

@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+apcon_ledger         char(1)                                 yes
+apcon_proof          integer                                 yes
+apcon_source         char(1)                                 yes
+apcon_batch          char(6)                                 yes
+apcon_trantype       char(1)                                 yes
+apcon_curval         float                                   yes
+apcon_futval         float                                   yes
+apcon_opid           char(4)                                 yes
+apcon_div            char(4)                                 yes
+

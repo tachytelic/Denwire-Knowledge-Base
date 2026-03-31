@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+bks_acctref          char(10)                                yes
+bks_page             smallint                                yes
+bks_openbal          float                                   yes
+bks_closebal         float                                   yes
+bks_reconbal         float                                   yes
+bks_recdate          date                                    yes
+bks_date             date                                    yes
+bks_repflag          char(1)                                 yes
+bks_memo             char(50)                                yes
+

@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+pot_intern           char(10)                                yes
+pot_intbra           char(4)                                 yes
+pot_exterc           char(20)                                yes
+pot_extbra           char(20)                                yes
+

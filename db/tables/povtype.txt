@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+povt_type            char(1)                                 yes
+povt_used            char(1)                                 yes
+

@@ -1,0 +1,53 @@
+
+
+Column name          Type                                    Nulls
+
+dlt_customer         char(10)                                yes
+dlt_trandate         date                                    yes
+dlt_ourref           char(8)                                 yes
+dlt_type             char(1)                                 yes
+dlt_status           char(1)                                 yes
+dlt_docref           char(8)                                 yes
+dlt_batch            char(6)                                 yes
+dlt_source           char(1)                                 yes
+dlt_value            float                                   yes
+dlt_discvalue        float                                   yes
+dlt_payvalue         float                                   yes
+dlt_taxvalue         float                                   yes
+dlt_terms            char(4)                                 yes
+dlt_duedate          date                                    yes
+dlt_proof            smallint                                yes
+dlt_fproof           smallint                                yes
+dlt_pendflg          char(1)                                 yes
+dlt_userid           char(4)                                 yes
+dlt_seq              serial                                  no
+dlt_period           smallint                                yes
+dlt_contract         char(12)                                yes
+dlt_year             smallint                                yes
+dlt_coid             char(4)                                 yes
+dlt_custord          char(25)                                yes
+dlt_glvalue          float                                   yes
+dlt_noreval          char(1)                                 yes
+dlt_valind           char(1)                                 yes
+dlt_loc              char(5)                                 yes
+dlt_voucher          integer                                 yes
+dlt_orgvalue         float                                   yes
+dlt_div              char(4)                                 yes
+dlt_subacc           char(10)                                yes
+dlt_rep              char(4)                                 yes
+dlt_extract          smallint                                yes
+dlt_paymeth          char(1)                                 yes
+dlt_cleared          date                                    yes
+dlt_creatdate        date                                    yes
+dlt_fact1op          char(2)                                 yes
+dlt_fact2op          char(2)                                 yes
+dlt_trcurr           char(4)                                 yes
+dlt_trcval           float                                   yes
+dlt_trdval           float                                   yes
+dlt_trpval           float                                   yes
+dlt_trxval           float                                   yes
+dlt_troval           float                                   yes
+dlt_dmcount          integer                                 yes
+dlt_paycode          char(4)                                 yes
+dlt_opdate           date                                    yes
+

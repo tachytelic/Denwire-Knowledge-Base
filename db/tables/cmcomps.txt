@@ -1,0 +1,18 @@
+
+
+Column name          Type                                    Nulls
+
+cmc_product          char(40)                                yes
+cmc_compcat          char(1)                                 yes
+cmc_ordref           char(8)                                 yes
+cmc_quant            float                                   yes
+cmc_account          char(10)                                yes
+cmc_dumkey           serial                                  no
+cmc_loc              char(5)                                 yes
+cmc_date             date                                    yes
+cmc_docref           char(8)                                 yes
+cmc_reas1            char(30)                                yes
+cmc_reas2            char(30)                                yes
+cmc_subcat           char(1)                                 yes
+cmc_userid           char(4)                                 yes
+

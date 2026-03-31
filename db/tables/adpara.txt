@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+adp_key              char(1)                                 yes
+adp_master           char(4)                                 yes
+adp_pv               char(1)                                 yes
+adp_concname         char(1)                                 yes
+adp_concaddr         char(1)                                 yes
+

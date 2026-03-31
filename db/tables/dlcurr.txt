@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+dlcur_customer       char(10)                                yes
+dlcur_trcurr         char(4)                                 yes
+dlcur_valid          char(1)                                 yes
+dlcur_payment        char(1)                                 yes
+

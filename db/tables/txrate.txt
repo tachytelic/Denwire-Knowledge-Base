@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+txr_taxcode          char(1)                                 yes
+txr_enddate          date                                    yes
+txr_taxrate          smallfloat                              yes
+txr_desc             char(30)                                yes
+

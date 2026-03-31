@@ -1,0 +1,43 @@
+
+
+Column name          Type                                    Nulls
+
+stdel_pikloc         char(5)                                 yes
+stdel_account        char(10)                                yes
+stdel_deladd         char(4)                                 yes
+stdel_ordref         char(8)                                 yes
+stdel_suffix         smallint                                yes
+stdel_bulkref        integer                                 yes
+stdel_pickdat        date                                    yes
+stdel_delstat        smallint                                yes
+stdel_delcomb        smallint                                yes
+stdel_parcels        smallint                                yes
+stdel_delref         char(8)                                 yes
+stdel_receiver       char(30)                                yes
+stdel_delname        char(40)                                yes
+stdel_delad1         char(30)                                yes
+stdel_delad2         char(30)                                yes
+stdel_delad3         char(30)                                yes
+stdel_delad4         char(30)                                yes
+stdel_delad5         char(30)                                yes
+stdel_delpost        char(10)                                yes
+stdel_carrier        char(10)                                yes
+stdel_carser         char(10)                                yes
+stdel_custref        char(20)                                yes
+stdel_condate        date                                    yes
+stdel_contime        smallfloat                              yes
+stdel_deldate        date                                    yes
+stdel_deltime        smallfloat                              yes
+stdel_nobox          smallint                                yes
+stdel_ccharge        float                                   yes
+stdel_picker         char(10)                                yes
+stdel_packer         char(10)                                yes
+stdel_confirmed      char(1)                                 yes
+stdel_company        char(4)                                 yes
+stdel_pickprnt       smallint                                yes
+stdel_loadno         integer                                 yes
+stdel_system         char(1)                                 yes
+stdel_colldate       date                                    yes
+stdel_colltime       smallfloat                              yes
+stdel_totwght        float                                   yes
+

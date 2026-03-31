@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+glb_budcode          integer                                 yes
+glb_period           smallint                                yes
+glb_desc             char(20)                                yes
+glb_percent          smallfloat                              yes
+

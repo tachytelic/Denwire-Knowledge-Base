@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+dlagt_agent          char(4)                                 yes
+dlagt_customer       char(10)                                yes
+dlagt_master         char(4)                                 yes
+dlagt_summary        char(4)                                 yes
+dlagt_sprcode        char(10)                                yes
+dlagt_plist          char(1)                                 yes
+

@@ -1,0 +1,15 @@
+
+
+Column name          Type                                    Nulls
+
+dlcr_credref         char(8)                                 yes
+dlcr_customer        char(10)                                yes
+dlcr_duedate         date                                    yes
+dlcr_status          char(1)                                 yes
+dlcr_holddate        date                                    yes
+dlcr_value           float                                   yes
+dlcr_allvalue        float                                   yes
+dlcr_memo            char(50)                                yes
+dlcr_orgstatus       char(1)                                 yes
+dlcr_tcurr           char(4)                                 yes
+

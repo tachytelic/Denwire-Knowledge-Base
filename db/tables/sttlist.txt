@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+sttlf_loc            char(5)                                 yes
+sttlf_product        char(15)                                yes
+sttlf_batch          integer                                 yes
+

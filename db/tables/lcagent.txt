@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+lcag_agent           char(8)                                 yes
+lcag_ndcode          char(10)                                yes
+

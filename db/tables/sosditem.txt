@@ -1,0 +1,24 @@
+
+
+Column name          Type                                    Nulls
+
+sosdi_quotref        char(8)                                 yes
+sosdi_product        char(40)                                yes
+sosdi_qqty           float                                   yes
+sosdi_qcost          float                                   yes
+sosdi_qprice         float                                   yes
+sosdi_qglprice       float                                   yes
+sosdi_shipqty        float                                   yes
+sosdi_shipcost       float                                   yes
+sosdi_shipprice      float                                   yes
+sosdi_qclaimed       float                                   yes
+sosdi_vclaimed       float                                   yes
+sosdi_ncost          float                                   yes
+sosdi_sprice         float                                   yes
+sosdi_lnstat         char(1)                                 yes
+sosdi_lntext         char(40)                                yes
+sosdi_resqty         float                                   yes
+sosdi_extref         char(15)                                yes
+sosdi_margin         float                                   yes
+sosdi_lineno         smallint                                yes
+

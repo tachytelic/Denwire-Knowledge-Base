@@ -1,0 +1,34 @@
+
+
+Column name          Type                                    Nulls
+
+sad_account          char(10)                                yes
+sad_deladd           char(4)                                 yes
+sad_product          char(40)                                yes
+sad_qty              float                                   yes
+sad_ref              char(8)                                 yes
+sad_icflag           char(1)                                 yes
+sad_value            float                                   yes
+sad_cosval           float                                   yes
+sad_dscval           float                                   yes
+sad_docdat           date                                    yes
+sad_prdgrp           char(4)                                 yes
+sad_rep              char(4)                                 yes
+sad_area             char(4)                                 yes
+sad_van              char(4)                                 yes
+sad_psource          char(1)                                 yes
+sad_year             smallint                                yes
+sad_period           smallint                                yes
+sad_stloc            char(5)                                 yes
+sad_ccwt             char(2)                                 yes
+sad_job              char(5)                                 yes
+sad_ledpst           char(1)                                 yes
+sad_seq              serial                                  no
+sad_usage            char(4)                                 yes
+sad_category         char(4)                                 yes
+sad_class            char(4)                                 yes
+sad_currency         char(4)                                 yes
+sad_ordref           char(8)                                 yes
+sad_unitcost         float                                   yes
+sad_unitprice        float                                   yes
+

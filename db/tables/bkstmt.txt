@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+bkstm_acctref        char(10)                                yes
+bkstm_page           smallint                                yes
+bkstm_line           smallint                                yes
+bkstm_trandate       date                                    yes
+bkstm_reference      char(6)                                 yes
+bkstm_payval         float                                   yes
+bkstm_recval         float                                   yes
+bkstm_balance        float                                   yes
+

@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+poshi_supplier       char(10)                                yes
+poshi_shipmeth       char(4)                                 yes
+poshi_desc           char(40)                                yes
+poshi_transit        integer                                 yes
+poshi_overhead       float                                   yes
+poshi_stacc          char(2)                                 yes
+

@@ -1,0 +1,12 @@
+
+
+Column name          Type                                    Nulls
+
+cms_stage            char(4)                                 yes
+cms_desc             char(40)                                yes
+cms_supplier         char(10)                                yes
+cms_dept             char(3)                                 yes
+cms_section          char(3)                                 yes
+cms_loc              char(5)                                 yes
+cms_srcloc           char(5)                                 yes
+

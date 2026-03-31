@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+dlty_ctype           char(1)                                 yes
+dlty_cntacc          char(15)                                yes
+

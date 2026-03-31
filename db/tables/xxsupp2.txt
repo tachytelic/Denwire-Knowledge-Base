@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+xxsuu_year           smallint                                yes
+xxsuu_to             float                                   yes
+

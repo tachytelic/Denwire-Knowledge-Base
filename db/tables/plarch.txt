@@ -1,0 +1,49 @@
+
+
+Column name          Type                                    Nulls
+
+pla_seq              serial                                  no
+pla_supplier         char(10)                                yes
+pla_trandate         date                                    yes
+pla_ourref           char(8)                                 yes
+pla_type             char(1)                                 yes
+pla_status           char(1)                                 yes
+pla_docref           char(25)                                yes
+pla_batch            char(6)                                 yes
+pla_source           char(1)                                 yes
+pla_value            float                                   yes
+pla_discvalue        float                                   yes
+pla_payvalue         float                                   yes
+pla_taxvalue         float                                   yes
+pla_terms            char(4)                                 yes
+pla_duedate          date                                    yes
+pla_proof            smallint                                yes
+pla_fproof           smallint                                yes
+pla_pendflg          char(1)                                 yes
+pla_userid           char(4)                                 yes
+pla_period           smallint                                yes
+pla_contract         char(12)                                yes
+pla_year             smallint                                yes
+pla_aurhdate         date                                    yes
+pla_coid             char(4)                                 yes
+pla_authinit         char(4)                                 yes
+pla_glvalue          float                                   yes
+pla_voucher          integer                                 yes
+pla_noreval          char(1)                                 yes
+pla_valind           char(1)                                 yes
+pla_orgvalue         float                                   yes
+pla_div              char(4)                                 yes
+pla_acctref          char(10)                                yes
+pla_prauth           char(1)                                 yes
+pla_order            char(13)                                yes
+pla_creatdate        date                                    yes
+pla_tcurr            char(4)                                 yes
+pla_trcval           float                                   yes
+pla_trdval           float                                   yes
+pla_trpval           float                                   yes
+pla_trxval           float                                   yes
+pla_troval           float                                   yes
+pla_paycode          char(4)                                 yes
+pla_debinvref        char(8)                                 yes
+pla_opdate           date                                    yes
+

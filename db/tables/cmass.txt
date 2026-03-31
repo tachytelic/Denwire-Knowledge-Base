@@ -1,0 +1,22 @@
+
+
+Column name          Type                                    Nulls
+
+cmass_atype          char(1)                                 yes
+cmass_assem          char(40)                                yes
+cmass_variant        char(4)                                 yes
+cmass_sequence       integer                                 yes
+cmass_effdate        date                                    yes
+cmass_ctype          char(1)                                 yes
+cmass_product        char(40)                                yes
+cmass_prodvar        char(4)                                 yes
+cmass_subass         char(1)                                 yes
+cmass_topass         char(1)                                 yes
+cmass_qty            float                                   yes
+cmass_makes          float                                   yes
+cmass_wastage        float                                   yes
+cmass_req            char(1)                                 yes
+cmass_purpose        char(1)                                 yes
+cmass_cost           float                                   yes
+cmass_fullinc        char(1)                                 yes
+

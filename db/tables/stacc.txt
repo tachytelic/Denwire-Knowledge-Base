@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+sta_accno            char(1)                                 yes
+sta_desc             char(30)                                yes
+sta_glacc            char(15)                                yes
+

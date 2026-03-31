@@ -1,0 +1,46 @@
+
+
+Column name          Type                                    Nulls
+
+lch_shipref          char(8)                                 yes
+lch_supplier         char(10)                                yes
+lch_branch           char(4)                                 yes
+lch_arrival          date                                    yes
+lch_received         date                                    yes
+lch_date3            date                                    yes
+lch_date4            date                                    yes
+lch_date5            date                                    yes
+lch_date6            date                                    yes
+lch_date7            date                                    yes
+lch_ship             char(30)                                yes
+lch_import           char(20)                                yes
+lch_cont1num         char(20)                                yes
+lch_cont2num         char(20)                                yes
+lch_consnote         char(20)                                yes
+lch_code5            char(20)                                yes
+lch_code6            char(20)                                yes
+lch_packages         float                                   yes
+lch_agent            char(8)                                 yes
+lch_custagnt         char(30)                                yes
+lch_agentinv         char(30)                                yes
+lch_weight           float                                   yes
+lch_volume           float                                   yes
+lch_rate             float                                   yes
+lch_rateduty         float                                   yes
+lch_supccost         float                                   yes
+lch_supcost          float                                   yes
+lch_fobcost          float                                   yes
+lch_cifcost          float                                   yes
+lch_totcost          float                                   yes
+lch_status           char(1)                                 yes
+lch_userid           char(4)                                 yes
+lch_code7            char(20)                                yes
+lch_code8            char(20)                                yes
+lch_code9            char(20)                                yes
+lch_code10           char(20)                                yes
+lch_date8            date                                    yes
+lch_date9            date                                    yes
+lch_date10           date                                    yes
+lch_port             date                                    yes
+lch_currency         char(4)                                 yes
+

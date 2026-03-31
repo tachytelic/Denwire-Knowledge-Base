@@ -1,0 +1,62 @@
+
+
+Column name          Type                                    Nulls
+
+poit_order           char(13)                                yes
+poit_line            smallint                                yes
+poit_status          char(1)                                 yes
+poit_product         char(40)                                yes
+poit_type            char(1)                                 yes
+poit_desc            char(40)                                yes
+poit_qtyord          float                                   yes
+poit_qtydel          float                                   yes
+poit_qtyinv          float                                   yes
+poit_valord          float                                   yes
+poit_valdel          float                                   yes
+poit_valinv          float                                   yes
+poit_price           float                                   yes
+poit_invprice        float                                   yes
+poit_per             float                                   yes
+poit_uom             char(1)                                 yes
+poit_convert         float                                   yes
+poit_duedate         date                                    yes
+poit_lastdel         date                                    yes
+poit_costmeth        char(1)                                 yes
+poit_costcode        char(15)                                yes
+poit_wt              char(2)                                 yes
+poit_subcode         char(4)                                 yes
+poit_tcode           integer                                 yes
+poit_discper         float                                   yes
+poit_mastord         char(13)                                yes
+poit_neword          char(1)                                 yes
+poit_mastflag        char(1)                                 yes
+poit_supplier        char(10)                                yes
+poit_soord           char(8)                                 yes
+poit_soseq           smallint                                yes
+poit_sorqty          float                                   yes
+poit_ccost           float                                   yes
+poit_soordtyp        char(1)                                 yes
+poit_reqdate         date                                    yes
+poit_oduedate        date                                    yes
+poit_duecount        smallint                                yes
+poit_shipqty         float                                   yes
+poit_ackref          char(13)                                yes
+poit_ackdate         date                                    yes
+poit_pricetyp        char(1)                                 yes
+poit_origprice       float                                   yes
+poit_ccqty           float                                   yes
+poit_sqtyord         float                                   yes
+poit_sqtydel         float                                   yes
+poit_sqtyinv         float                                   yes
+poit_esn             integer                                 yes
+poit_esseq           smallint                                yes
+poit_qtycan          float                                   yes
+poit_sqtycan         float                                   yes
+poit_edd             date                                    yes
+poit_shipmeth        char(4)                                 yes
+poit_ackchase        integer                                 yes
+poit_ackcno          integer                                 yes
+poit_chastat         char(1)                                 yes
+poit_ldclo           date                                    yes
+poit_procode         char(4)                                 yes
+

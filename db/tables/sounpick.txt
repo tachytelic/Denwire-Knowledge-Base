@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+soun_ordref          char(8)                                 yes
+soun_line            smallint                                yes
+soun_unqkey          serial                                  no
+soun_batch           integer                                 yes
+soun_bin             char(10)                                yes
+soun_serial          char(22)                                yes
+soun_qty             float                                   yes
+soun_trandate        date                                    yes
+

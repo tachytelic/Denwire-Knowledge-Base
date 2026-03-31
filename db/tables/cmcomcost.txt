@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+cmcc_cstgrp          char(4)                                 yes
+cmcc_upperc          float                                   yes
+

@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+glp_year             smallint                                yes
+glp_proof            integer                                 yes
+glp_proofpag         integer                                 yes
+glp_proofseq         integer                                 yes
+glp_prfcred          float                                   yes
+glp_prfdeb           float                                   yes
+

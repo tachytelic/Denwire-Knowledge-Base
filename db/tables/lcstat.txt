@@ -1,0 +1,60 @@
+
+
+Column name          Type                                    Nulls
+
+lcst_tariff          char(11)                                yes
+lcst_country         char(2)                                 yes
+lcst_year            smallint                                yes
+lcst_com1qty         float                                   yes
+lcst_com2qty         float                                   yes
+lcst_com3qty         float                                   yes
+lcst_com4qty         float                                   yes
+lcst_com5qty         float                                   yes
+lcst_com6qty         float                                   yes
+lcst_com7qty         float                                   yes
+lcst_com8qty         float                                   yes
+lcst_com9qty         float                                   yes
+lcst_com10qty        float                                   yes
+lcst_com11qty        float                                   yes
+lcst_com12qty        float                                   yes
+lcst_com13qty        float                                   yes
+lcst_com1val         float                                   yes
+lcst_com2val         float                                   yes
+lcst_com3val         float                                   yes
+lcst_com4val         float                                   yes
+lcst_com5val         float                                   yes
+lcst_com6val         float                                   yes
+lcst_com7val         float                                   yes
+lcst_com8val         float                                   yes
+lcst_com9val         float                                   yes
+lcst_com10val        float                                   yes
+lcst_com11val        float                                   yes
+lcst_com12val        float                                   yes
+lcst_com13val        float                                   yes
+lcst_act1qty         float                                   yes
+lcst_act2qty         float                                   yes
+lcst_act3qty         float                                   yes
+lcst_act4qty         float                                   yes
+lcst_act5qty         float                                   yes
+lcst_act6qty         float                                   yes
+lcst_act7qty         float                                   yes
+lcst_act8qty         float                                   yes
+lcst_act9qty         float                                   yes
+lcst_act10qty        float                                   yes
+lcst_act11qty        float                                   yes
+lcst_act12qty        float                                   yes
+lcst_act13qty        float                                   yes
+lcst_act1val         float                                   yes
+lcst_act2val         float                                   yes
+lcst_act3val         float                                   yes
+lcst_act4val         float                                   yes
+lcst_act5val         float                                   yes
+lcst_act6val         float                                   yes
+lcst_act7val         float                                   yes
+lcst_act8val         float                                   yes
+lcst_act9val         float                                   yes
+lcst_act10val        float                                   yes
+lcst_act11val        float                                   yes
+lcst_act12val        float                                   yes
+lcst_act13val        float                                   yes
+

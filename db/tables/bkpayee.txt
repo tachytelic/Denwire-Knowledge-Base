@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+bkp_code             char(10)                                yes
+bkp_banksort         char(8)                                 yes
+bkp_acctno           char(35)                                yes
+bkp_acctname         char(40)                                yes
+bkp_payeeref         char(35)                                yes
+bkp_paymethod        char(1)                                 yes
+bkp_ndcode           char(10)                                yes
+bkp_acctref          char(10)                                yes
+bkp_accttype         char(1)                                 yes
+

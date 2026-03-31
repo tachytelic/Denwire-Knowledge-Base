@@ -1,0 +1,37 @@
+
+
+Column name          Type                                    Nulls
+
+stuse_loc            char(5)                                 yes
+stuse_product        char(40)                                yes
+stuse_year           smallint                                yes
+stuse_period         smallint                                yes
+stuse_totqty         float                                   yes
+stuse_totcost        float                                   yes
+stuse_salqty         float                                   yes
+stuse_salcost        float                                   yes
+stuse_forqty         float                                   yes
+stuse_recqty         float                                   yes
+stuse_reccost        float                                   yes
+stuse_wofqty         float                                   yes
+stuse_wofcost        float                                   yes
+stuse_tfrqty         float                                   yes
+stuse_tfrcost        float                                   yes
+stuse_lostqty        float                                   yes
+stuse_dutycost       float                                   yes
+stuse_dutsqty        float                                   yes
+stuse_dutsval        float                                   yes
+stuse_expqty         float                                   yes
+stuse_expval         float                                   yes
+stuse_tranoqty       float                                   yes
+stuse_tranocost      float                                   yes
+stuse_traniqty       float                                   yes
+stuse_tranicost      float                                   yes
+stuse_dtranqty       float                                   yes
+stuse_dtrancost      float                                   yes
+stuse_saldemand      float                                   yes
+stuse_salval         float                                   yes
+stuse_isalqty        float                                   yes
+stuse_isalcost       float                                   yes
+stuse_isalval        float                                   yes
+

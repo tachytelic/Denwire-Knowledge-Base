@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+cmdes_product        char(40)                                yes
+cmdes_seq            smallint                                yes
+cmdes_desc           char(50)                                yes
+cmdes_ctype          char(1)                                 yes
+cmdes_variant        char(4)                                 yes
+cmdes_lang           char(2)                                 yes
+

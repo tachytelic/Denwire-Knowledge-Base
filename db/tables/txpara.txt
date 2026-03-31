@@ -1,0 +1,51 @@
+
+
+Column name          Type                                    Nulls
+
+txpar_key            char(1)                                 yes
+txpar_master         char(4)                                 yes
+txpar_maxper         smallint                                yes
+txpar_year           smallint                                yes
+txpar_curper         smallint                                yes
+txpar_proof          smallint                                yes
+txpar_sltaxacct      char(15)                                yes
+txpar_pltaxacct      char(15)                                yes
+txpar_summary        char(1)                                 yes
+txpar_outsrce        char(26)                                yes
+txpar_insrce         char(26)                                yes
+txpar_retno          smallint                                yes
+txpar_country        char(2)                                 yes
+txpar_txregno        char(15)                                yes
+txpar_branch         char(3)                                 yes
+txpar_proofreq       char(1)                                 yes
+txpar_control        char(1)                                 yes
+txpar_suspense       char(15)                                yes
+txpar_settle         char(1)                                 yes
+txpar_acquire        char(15)                                yes
+txpar_stdrate        char(1)                                 yes
+txpar_necvatmth      smallint                                yes
+txpar_nxecvatyr      smallint                                yes
+txpar_tx31freq       char(1)                                 yes
+txpar_linernd        char(1)                                 yes
+txpar_notvat         char(1)                                 yes
+txpar_adjrate        char(1)                                 yes
+txpar_intref         integer                                 yes
+txpar_intprefix      char(4)                                 yes
+txpar_acctref        char(10)                                yes
+txpar_supplier       char(10)                                yes
+txpar_divret         char(1)                                 yes
+txpar_exprate        char(6)                                 yes
+txpar_exvatcode      char(15)                                yes
+txpar_salesvat       float                                   yes
+txpar_acquvat        float                                   yes
+txpar_purchvat       float                                   yes
+txpar_buref          char(20)                                yes
+txpar_retreq         char(1)                                 yes
+txpar_statused       char(1)                                 yes
+txpar_styear         smallint                                yes
+txpar_stperiod       smallint                                yes
+txpar_serdocreg      char(1)                                 yes
+txpar_invpost        char(1)                                 yes
+txpar_latepost       date                                    yes
+txpar_valopdate      char(1)                                 yes
+

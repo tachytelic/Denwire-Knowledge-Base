@@ -1,0 +1,57 @@
+
+
+Column name          Type                                    Nulls
+
+pord_supplier        char(10)                                yes
+pord_branch          char(4)                                 yes
+pord_order           char(13)                                yes
+pord_type            char(1)                                 yes
+pord_dateord         date                                    yes
+pord_userid          char(4)                                 yes
+pord_nodel           char(1)                                 yes
+pord_author          char(4)                                 yes
+pord_pondtype        char(1)                                 yes
+pord_pondcode        char(12)                                yes
+pord_ordvalue        float                                   yes
+pord_delvalue        float                                   yes
+pord_invvalue        float                                   yes
+pord_outitems        integer                                 yes
+pord_delqty          float                                   yes
+pord_invqty          float                                   yes
+pord_lastdel         date                                    yes
+pord_terms           char(4)                                 yes
+pord_costmeth        char(1)                                 yes
+pord_costcode        char(15)                                yes
+pord_wt              char(2)                                 yes
+pord_subcode         char(4)                                 yes
+pord_deldate         date                                    yes
+pord_ternal          char(1)                                 yes
+pord_pstatus         char(1)                                 yes
+pord_revnum          smallint                                yes
+pord_apstat          char(1)                                 yes
+pord_cash            char(1)                                 yes
+pord_ackref          char(13)                                yes
+pord_ackdate         date                                    yes
+pord_origin          char(1)                                 yes
+pord_origref         char(8)                                 yes
+pord_cvrate          float                                   yes
+pord_div             char(4)                                 yes
+pord_expform         char(1)                                 yes
+pord_lettcred        char(20)                                yes
+pord_security        char(1)                                 yes
+pord_ref1            char(15)                                yes
+pord_ref2            char(15)                                yes
+pord_delterm         char(3)                                 yes
+pord_specdeal        char(1)                                 yes
+pord_customer        char(10)                                yes
+pord_suppref         char(13)                                yes
+pord_company         char(4)                                 yes
+pord_supndcode       char(10)                                yes
+pord_dirloc          char(5)                                 yes
+pord_esn             integer                                 yes
+pord_esseq           smallint                                yes
+pord_ccomp           char(4)                                 yes
+pord_shipmeth        char(4)                                 yes
+pord_currency        char(4)                                 yes
+pord_prcopies        integer                                 yes
+

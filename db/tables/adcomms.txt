@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+adm_ndcode           char(10)                                yes
+adm_source           char(1)                                 yes
+adm_type             smallint                                yes
+adm_lineno           smallint                                yes
+adm_text             char(50)                                yes
+

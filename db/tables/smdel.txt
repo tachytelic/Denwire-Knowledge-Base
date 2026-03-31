@@ -1,0 +1,18 @@
+
+
+Column name          Type                                    Nulls
+
+sm_account           char(10)                                yes
+sm_delcode           char(4)                                 yes
+sm_nacode            char(10)                                yes
+sm_repcode           char(4)                                 yes
+sm_arcode            char(4)                                 yes
+sm_notes             char(40)                                yes
+sm_notes1            char(40)                                yes
+sm_transpcod         char(1)                                 yes
+sm_vancode           char(4)                                 yes
+sm_atype             char(1)                                 yes
+sm_buref             char(30)                                yes
+sm_tsuser            char(4)                                 yes
+sm_serlev            char(4)                                 yes
+

@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+porc_notetype        char(1)                                 yes
+porc_noteref         char(8)                                 yes
+porc_comline         smallint                                yes
+porc_comseq          smallint                                yes
+porc_comtype         char(1)                                 yes
+porc_text            char(50)                                yes
+

@@ -1,0 +1,24 @@
+
+
+Column name          Type                                    Nulls
+
+stcon_consign        char(25)                                yes
+stcon_ordref         char(8)                                 yes
+stcon_suffix         smallint                                yes
+stcon_pikloc         char(5)                                 yes
+stcon_line           serial                                  no
+stcon_contract       char(10)                                yes
+stcon_carser         char(10)                                yes
+stcon_delref         char(8)                                 yes
+stcon_constat        char(8)                                 yes
+stcon_condate        date                                    yes
+stcon_contime        smallfloat                              yes
+stcon_deldate        date                                    yes
+stcon_deltime        smallfloat                              yes
+stcon_confirmed      char(1)                                 yes
+stcon_status         smallint                                yes
+stcon_receiver       char(30)                                yes
+stcon_system         char(1)                                 yes
+stcon_colldate       date                                    yes
+stcon_colltime       smallfloat                              yes
+

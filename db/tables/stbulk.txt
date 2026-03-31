@@ -1,0 +1,23 @@
+
+
+Column name          Type                                    Nulls
+
+stbul_bulkref        integer                                 yes
+stbul_bin            char(10)                                yes
+stbul_product        char(40)                                yes
+stbul_loc            char(5)                                 yes
+stbul_ordref         char(8)                                 yes
+stbul_pickdat        date                                    yes
+stbul_pikqty         float                                   yes
+stbul_batch          integer                                 yes
+stbul_serial         char(22)                                yes
+stbul_account        char(10)                                yes
+stbul_deladd         char(4)                                 yes
+stbul_pikloc         char(5)                                 yes
+stbul_suffix         smallint                                yes
+stbul_delref         char(8)                                 yes
+stbul_source         char(1)                                 yes
+stbul_reqref         char(8)                                 yes
+stbul_oneloc         char(1)                                 yes
+stbul_reqdone        char(1)                                 yes
+

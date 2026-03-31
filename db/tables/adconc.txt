@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+adcon_type           char(1)                                 yes
+adcon_ndcode         char(10)                                yes
+adcon_word           char(8)                                 yes
+

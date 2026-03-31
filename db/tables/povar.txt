@@ -1,0 +1,23 @@
+
+
+Column name          Type                                    Nulls
+
+pov_rtype            char(1)                                 yes
+pov_order            char(13)                                yes
+pov_line             smallint                                yes
+pov_seq              smallint                                yes
+pov_product          char(40)                                yes
+pov_dateord          date                                    yes
+pov_quantity         float                                   yes
+pov_value            float                                   yes
+pov_invqty           float                                   yes
+pov_invvalue         float                                   yes
+pov_varvalue         float                                   yes
+pov_invdate          date                                    yes
+pov_wt               char(2)                                 yes
+pov_jobno            char(10)                                yes
+pov_subcd            char(4)                                 yes
+pov_tcode            integer                                 yes
+pov_author           char(10)                                yes
+pov_reason           char(1)                                 yes
+

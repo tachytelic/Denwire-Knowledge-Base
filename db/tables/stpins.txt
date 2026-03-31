@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+stpn_system          char(1)                                 yes
+stpn_ref             char(8)                                 yes
+stpn_line            integer                                 yes
+stpn_seq             smallint                                yes
+stpn_pickins         char(3)                                 yes
+

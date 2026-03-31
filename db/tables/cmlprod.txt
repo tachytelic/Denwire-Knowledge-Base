@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+cml_product          char(40)                                yes
+cml_lang             char(2)                                 yes
+cml_desc             char(40)                                yes
+

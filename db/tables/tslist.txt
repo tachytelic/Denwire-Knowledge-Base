@@ -1,0 +1,24 @@
+
+
+Column name          Type                                    Nulls
+
+tsl_userid           char(4)                                 yes
+tsl_customer         char(10)                                yes
+tsl_deladd           char(4)                                 yes
+tsl_ndseq            smallint                                yes
+tsl_ndcode           char(10)                                yes
+tsl_datecr           date                                    yes
+tsl_timecr           smallfloat                              yes
+tsl_datedue          date                                    yes
+tsl_timedue          smallfloat                              yes
+tsl_datefst          date                                    yes
+tsl_timefst          smallfloat                              yes
+tsl_itemtype         char(4)                                 yes
+tsl_desc             char(20)                                yes
+tsl_itemcode         char(4)                                 yes
+tsl_caller           char(25)                                yes
+tsl_telephone        char(20)                                yes
+tsl_priority         smallint                                yes
+tsl_serial           serial                                  no
+tsl_source           char(1)                                 yes
+

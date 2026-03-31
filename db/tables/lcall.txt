@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+lcal_shipref         char(8)                                 yes
+lcal_line            smallint                                yes
+lcal_costtype        char(1)                                 yes
+lcal_seq             smallint                                yes
+lcal_alloc           float                                   yes
+

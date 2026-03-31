@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+soc_type             char(1)                                 yes
+soc_code             char(10)                                yes
+soc_desc             char(40)                                yes
+

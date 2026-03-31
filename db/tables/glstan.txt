@@ -1,0 +1,17 @@
+
+
+Column name          Type                                    Nulls
+
+glj_rectype          char(1)                                 yes
+glj_docref           char(8)                                 yes
+glj_seq              smallint                                yes
+glj_account          char(15)                                yes
+glj_trandate         date                                    yes
+glj_trantype         char(1)                                 yes
+glj_value            float                                   yes
+glj_comment          char(40)                                yes
+glj_percent          float                                   yes
+glj_postcnt          smallint                                yes
+glj_freq             char(1)                                 yes
+glj_debcred          char(1)                                 yes
+

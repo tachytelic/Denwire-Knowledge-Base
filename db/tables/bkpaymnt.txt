@@ -1,0 +1,31 @@
+
+
+Column name          Type                                    Nulls
+
+bkpm_source          char(1)                                 yes
+bkpm_voucher         char(8)                                 yes
+bkpm_code            char(10)                                yes
+bkpm_trandate        date                                    yes
+bkpm_status          char(1)                                 yes
+bkpm_value           float                                   yes
+bkpm_batch           char(6)                                 yes
+bkpm_docref          char(8)                                 yes
+bkpm_proof           smallint                                yes
+bkpm_memo            char(20)                                yes
+bkpm_trantype        char(1)                                 yes
+bkpm_userid          char(4)                                 yes
+bkpm_chequeno        integer                                 yes
+bkpm_acctref         char(10)                                yes
+bkpm_discvalue       float                                   yes
+bkpm_ndcode          char(10)                                yes
+bkpm_payname         char(40)                                yes
+bkpm_currency        char(4)                                 yes
+bkpm_glvalue         float                                   yes
+bkpm_remdel          char(1)                                 yes
+bkpm_ccno            char(20)                                yes
+bkpm_expire          char(5)                                 yes
+bkpm_issueno         smallint                                yes
+bkpm_author          char(20)                                yes
+bkpm_creatdate       date                                    yes
+bkpm_paycode         char(4)                                 yes
+

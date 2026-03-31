@@ -1,0 +1,26 @@
+
+
+Column name          Type                                    Nulls
+
+glbat_unikey         serial                                  no
+glbat_account        char(15)                                yes
+glbat_year           smallint                                yes
+glbat_period         smallint                                yes
+glbat_trandate       date                                    yes
+glbat_trantype       char(1)                                 yes
+glbat_docref         char(8)                                 yes
+glbat_value          float                                   yes
+glbat_batch          char(12)                                yes
+glbat_ledger         char(1)                                 yes
+glbat_ledacct        char(10)                                yes
+glbat_contract       char(12)                                yes
+glbat_comment        char(40)                                yes
+glbat_proof          smallint                                yes
+glbat_fproof         smallint                                yes
+glbat_mendflg        char(1)                                 yes
+glbat_userid         char(4)                                 yes
+glbat_extdocref      char(8)                                 yes
+glbat_qty            float                                   yes
+glbat_codea          char(22)                                yes
+glbat_codeb          char(22)                                yes
+

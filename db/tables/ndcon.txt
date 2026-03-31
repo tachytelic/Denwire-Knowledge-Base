@@ -1,0 +1,17 @@
+
+
+Column name          Type                                    Nulls
+
+ndc_ndcode           char(10)                                yes
+ndc_seq              smallint                                yes
+ndc_title            char(6)                                 yes
+ndc_initial          char(6)                                 yes
+ndc_forename         char(15)                                yes
+ndc_surname          char(20)                                yes
+ndc_salut            char(10)                                yes
+ndc_letters          char(15)                                yes
+ndc_telephone        char(20)                                yes
+ndc_comment          char(20)                                yes
+ndc_fax              char(20)                                yes
+ndc_email            char(60)                                yes
+

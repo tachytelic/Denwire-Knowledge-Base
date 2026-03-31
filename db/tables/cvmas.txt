@@ -1,0 +1,24 @@
+
+
+Column name          Type                                    Nulls
+
+cvm_currency         char(4)                                 yes
+cvm_desc             char(30)                                yes
+cvm_glacc            char(15)                                yes
+cvm_master           char(1)                                 yes
+cvm_bank             char(10)                                yes
+cvm_round            smallint                                yes
+cvm_decimals         smallint                                yes
+cvm_language         char(4)                                 yes
+cvm_muldiv           char(1)                                 yes
+cvm_chqmdesc         char(20)                                yes
+cvm_chqddesc         char(20)                                yes
+cvm_chqidesc         char(3)                                 yes
+cvm_gainacc          char(15)                                yes
+cvm_factcurr         char(4)                                 yes
+cvm_omuldiv          char(1)                                 yes
+cvm_refcurr          char(4)                                 yes
+cvm_fixrate          char(1)                                 yes
+cvm_effdate          date                                    yes
+cvm_rmuldiv          char(1)                                 yes
+

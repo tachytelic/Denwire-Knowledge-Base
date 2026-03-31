@@ -1,0 +1,17 @@
+
+
+Column name          Type                                    Nulls
+
+xxs_supplier         char(10)                                yes
+xxs_name             char(40)                                yes
+xxs_lastpurch        date                                    yes
+xxs_year             smallint                                yes
+xxs_to               float                                   yes
+xxs_currency         char(4)                                 yes
+xxs_rate             float                                   yes
+xxs_type             char(1)                                 yes
+xxs_sterling         float                                   yes
+xxs_totto            float                                   yes
+xxs_granstot         float                                   yes
+xxs_percent          smallfloat                              yes
+

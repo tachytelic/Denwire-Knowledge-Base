@@ -1,0 +1,30 @@
+
+
+Column name          Type                                    Nulls
+
+sosdh_quotref        char(8)                                 yes
+sosdh_supplier       char(10)                                yes
+sosdh_customer       char(10)                                yes
+sosdh_status         char(1)                                 yes
+sosdh_docreq         char(1)                                 yes
+sosdh_suppqref       char(25)                                yes
+sosdh_supparef       char(15)                                yes
+sosdh_expiry         date                                    yes
+sosdh_intproj        char(15)                                yes
+sosdh_extproj        char(15)                                yes
+sosdh_credate        date                                    yes
+sosdh_opid           char(4)                                 yes
+sosdh_comm1          char(40)                                yes
+sosdh_comm2          char(40)                                yes
+sosdh_vary           smallfloat                              yes
+sosdh_suppcurr       char(4)                                 yes
+sosdh_edisdq         smallint                                yes
+sosdh_edisda         smallint                                yes
+sosdh_cond1          char(1)                                 yes
+sosdh_cond2          char(1)                                 yes
+sosdh_cond3          char(1)                                 yes
+sosdh_cond4          char(1)                                 yes
+sosdh_cond5          char(1)                                 yes
+sosdh_scomp          char(4)                                 yes
+sosdh_ccomp          char(4)                                 yes
+

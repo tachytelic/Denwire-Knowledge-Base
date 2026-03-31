@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+stpig_pigrp          char(3)                                 yes
+stpig_seq            smallint                                yes
+stpig_pickins        char(3)                                 yes
+stpig_def            char(1)                                 yes
+

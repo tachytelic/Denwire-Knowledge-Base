@@ -1,0 +1,12 @@
+
+
+Column name          Type                                    Nulls
+
+stc_assem            char(40)                                yes
+stc_serial           char(22)                                yes
+stc_seq              integer                                 yes
+stc_product          char(40)                                yes
+stc_qty              float                                   yes
+stc_type             char(1)                                 yes
+stc_sernum           char(22)                                yes
+

@@ -1,0 +1,16 @@
+
+
+Column name          Type                                    Nulls
+
+cmacc_loc            char(5)                                 yes
+cmacc_code           char(4)                                 yes
+cmacc_company        char(4)                                 yes
+cmacc_viewstk        char(1)                                 yes
+cmacc_ordstk         char(1)                                 yes
+cmacc_autoalloc      char(1)                                 yes
+cmacc_autoresv       char(1)                                 yes
+cmacc_manalloc       char(1)                                 yes
+cmacc_islrsvstk      char(1)                                 yes
+cmacc_commissio      float                                   yes
+cmacc_status         char(1)                                 yes
+

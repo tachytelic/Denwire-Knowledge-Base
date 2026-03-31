@@ -1,0 +1,39 @@
+
+
+Column name          Type                                    Nulls
+
+podoc_batch          char(6)                                 yes
+podoc_ourref         char(8)                                 yes
+podoc_posted         char(1)                                 yes
+podoc_docref         char(25)                                yes
+podoc_supplier       char(10)                                yes
+podoc_date           date                                    yes
+podoc_value          float                                   yes
+podoc_authinit       char(4)                                 yes
+podoc_tax1code       char(1)                                 yes
+podoc_good1val       float                                   yes
+podoc_tax1val        float                                   yes
+podoc_tax2code       char(1)                                 yes
+podoc_good2val       float                                   yes
+podoc_tax2val        float                                   yes
+podoc_tax3code       char(1)                                 yes
+podoc_good3val       float                                   yes
+podoc_tax3val        float                                   yes
+podoc_terms          char(4)                                 yes
+podoc_debnote        char(8)                                 yes
+podoc_status         char(1)                                 yes
+podoc_origstat       char(1)                                 yes
+podoc_type           char(1)                                 yes
+podoc_dablval        float                                   yes
+podoc_duedate        date                                    yes
+podoc_allocated      float                                   yes
+podoc_order          char(13)                                yes
+podoc_cvrate         float                                   yes
+podoc_memo           char(50)                                yes
+podoc_cumsetval      float                                   yes
+podoc_perc           float                                   yes
+podoc_discount       float                                   yes
+podoc_div            char(4)                                 yes
+podoc_trcurr         char(4)                                 yes
+podoc_opdate         date                                    yes
+

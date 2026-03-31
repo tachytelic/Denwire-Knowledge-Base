@@ -1,0 +1,49 @@
+
+
+Column name          Type                                    Nulls
+
+plt_supplier         char(10)                                yes
+plt_trandate         date                                    yes
+plt_ourref           char(8)                                 yes
+plt_type             char(1)                                 yes
+plt_status           char(1)                                 yes
+plt_docref           char(25)                                yes
+plt_batch            char(6)                                 yes
+plt_source           char(1)                                 yes
+plt_value            float                                   yes
+plt_discvalue        float                                   yes
+plt_payvalue         float                                   yes
+plt_taxvalue         float                                   yes
+plt_terms            char(4)                                 yes
+plt_duedate          date                                    yes
+plt_proof            smallint                                yes
+plt_fproof           smallint                                yes
+plt_pendflg          char(1)                                 yes
+plt_userid           char(4)                                 yes
+plt_seq              serial                                  no
+plt_period           smallint                                yes
+plt_contract         char(12)                                yes
+plt_year             smallint                                yes
+plt_authdate         date                                    yes
+plt_coid             char(4)                                 yes
+plt_authinit         char(4)                                 yes
+plt_glvalue          float                                   yes
+plt_voucher          integer                                 yes
+plt_noreval          char(1)                                 yes
+plt_valind           char(1)                                 yes
+plt_orgvalue         float                                   yes
+plt_div              char(4)                                 yes
+plt_acctref          char(10)                                yes
+plt_prauth           char(1)                                 yes
+plt_order            char(13)                                yes
+plt_creatdate        date                                    yes
+plt_trcval           float                                   yes
+plt_trcurr           char(4)                                 yes
+plt_trdval           float                                   yes
+plt_trpval           float                                   yes
+plt_trxval           float                                   yes
+plt_troval           float                                   yes
+plt_paycode          char(4)                                 yes
+plt_debinvref        char(8)                                 yes
+plt_opdate           date                                    yes
+

@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+stres_ordref         char(8)                                 yes
+stres_product        char(40)                                yes
+stres_batch          integer                                 yes
+stres_line           smallint                                yes
+stres_result         char(30)                                yes
+stres_resval         float                                   yes
+stres_source         char(1)                                 yes
+stres_test           char(10)                                yes
+

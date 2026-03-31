@@ -1,0 +1,20 @@
+
+
+Column name          Type                                    Nulls
+
+sore_ordref          char(8)                                 yes
+sore_ordtype         char(1)                                 yes
+sore_stopcode        char(1)                                 yes
+sore_seq             smallint                                yes
+sore_product         char(15)                                yes
+sore_quantity        float                                   yes
+sore_price           float                                   yes
+sore_cossal          float                                   yes
+sore_value           float                                   yes
+sore_reqdate         date                                    yes
+sore_profit          char(1)                                 yes
+sore_margin          float                                   yes
+sore_customer        char(10)                                yes
+sore_leasehld        char(1)                                 yes
+sore_leasechhl       char(1)                                 yes
+

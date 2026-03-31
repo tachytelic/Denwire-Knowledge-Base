@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+socf_ordref          char(8)                                 yes
+socf_ordline         integer                                 yes
+socf_seq             integer                                 yes
+socf_product         char(15)                                yes
+socf_qty             float                                   yes
+socf_type            char(1)                                 yes
+socf_sellpr          float                                   yes
+socf_cost            float                                   yes
+

@@ -1,0 +1,18 @@
+
+
+Column name          Type                                    Nulls
+
+pori_notetype        char(1)                                 yes
+pori_noteref         char(8)                                 yes
+pori_line            smallint                                yes
+pori_product         char(40)                                yes
+pori_order           char(13)                                yes
+pori_poline          smallint                                yes
+pori_seq             smallint                                yes
+pori_qty             float                                   yes
+pori_value           float                                   yes
+pori_uom             char(1)                                 yes
+pori_status          char(1)                                 yes
+pori_procqty         float                                   yes
+pori_reqref          char(8)                                 yes
+

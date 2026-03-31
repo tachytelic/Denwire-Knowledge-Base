@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+lccom_shipref        char(8)                                 yes
+lccom_seq            smallint                                yes
+lccom_text           char(50)                                yes
+

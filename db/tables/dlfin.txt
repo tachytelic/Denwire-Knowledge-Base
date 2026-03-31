@@ -1,0 +1,20 @@
+
+
+Column name          Type                                    Nulls
+
+dlf_customer         char(10)                                yes
+dlf_seq              serial                                  no
+dlf_invoice          char(8)                                 yes
+dlf_trandate         date                                    yes
+dlf_goodsval         float                                   yes
+dlf_taxval           float                                   yes
+dlf_cvalue           float                                   yes
+dlf_ctax             float                                   yes
+dlf_pcent            smallfloat                              yes
+dlf_year             smallint                                yes
+dlf_period           smallint                                yes
+dlf_custord          char(25)                                yes
+dlf_orgtype          char(1)                                 yes
+dlf_rectype          char(1)                                 yes
+dlf_status           char(1)                                 yes
+

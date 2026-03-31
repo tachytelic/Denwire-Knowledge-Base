@@ -1,0 +1,27 @@
+
+
+Column name          Type                                    Nulls
+
+sori_retno           char(8)                                 yes
+sori_seq             integer                                 yes
+sori_product         char(40)                                yes
+sori_qty             float                                   yes
+sori_uom             char(1)                                 yes
+sori_loc             char(5)                                 yes
+sori_bin             char(10)                                yes
+sori_costpr          float                                   yes
+sori_sellpr          float                                   yes
+sori_act1            char(4)                                 yes
+sori_opid1           char(4)                                 yes
+sori_date1           date                                    yes
+sori_stat1           char(1)                                 yes
+sori_act2            char(4)                                 yes
+sori_opid2           char(4)                                 yes
+sori_date2           date                                    yes
+sori_stat2           char(1)                                 yes
+sori_origso          char(8)                                 yes
+sori_poref           char(13)                                yes
+sori_defect          char(4)                                 yes
+sori_reason          char(4)                                 yes
+sori_nolabs          integer                                 yes
+

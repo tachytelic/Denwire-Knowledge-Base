@@ -1,0 +1,6 @@
+
+
+Column name          Type                                    Nulls
+
+lctf_tariff          char(11)                                yes
+

@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+sapar_cusyear        smallint                                yes
+sapar_dummy          char(1)                                 yes
+sapar_db1year        smallint                                yes
+sapar_db2year        smallint                                yes
+sapar_dbstloc        char(2)                                 yes
+sapar_proofno        integer                                 yes
+sapar_dbkeys         char(4)                                 yes
+sapar_analloc        char(1)                                 yes
+sapar_analteam       char(1)                                 yes
+

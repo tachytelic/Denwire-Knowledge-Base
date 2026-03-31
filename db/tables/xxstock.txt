@@ -1,0 +1,7 @@
+
+
+Column name          Type                                    Nulls
+
+xxst_product         char(40)                                yes
+xxst_loc             char(5)                                 yes
+

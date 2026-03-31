@@ -1,0 +1,12 @@
+
+
+Column name          Type                                    Nulls
+
+cmop_operation       char(10)                                yes
+cmop_desc            char(40)                                yes
+cmop_per             float                                   yes
+cmop_cost            float                                   yes
+cmop_time            float                                   yes
+cmop_man             float                                   yes
+cmop_mach            float                                   yes
+

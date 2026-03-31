@@ -1,0 +1,33 @@
+
+
+Column name          Type                                    Nulls
+
+stifi_reqref         char(8)                                 yes
+stifi_line           integer                                 yes
+stifi_seq            integer                                 yes
+stifi_product        char(15)                                yes
+stifi_type           char(1)                                 yes
+stifi_analcode       char(15)                                yes
+stifi_cat            char(1)                                 yes
+stifi_custprod       char(15)                                yes
+stifi_desc           char(40)                                yes
+stifi_group          char(4)                                 yes
+stifi_batch          integer                                 yes
+stifi_batref         char(22)                                yes
+stifi_bin            char(10)                                yes
+stifi_cusitem        char(6)                                 yes
+stifi_qty            float                                   yes
+stifi_unit           char(1)                                 yes
+stifi_serial         char(22)                                yes
+stifi_tobin          char(10)                                yes
+stifi_quar           char(1)                                 yes
+stifi_confqty        float                                   yes
+stifi_procdate       date                                    yes
+stifi_remzero        char(1)                                 yes
+stifi_check          char(1)                                 yes
+stifi_repick         char(1)                                 yes
+stifi_newline        char(1)                                 yes
+stifi_sellpr         float                                   yes
+stifi_cost           float                                   yes
+stifi_pickins        char(100)                               yes
+

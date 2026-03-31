@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+lcp_key              char(1)                                 yes
+lcp_shipsusp         char(15)                                yes
+lcp_nextref          integer                                 yes
+lcp_prefix           char(4)                                 yes
+lcp_refgen           char(1)                                 yes
+lcp_purgedays        smallint                                yes
+lcp_lineint          smallint                                yes
+lcp_overint          smallint                                yes
+lcp_prodover         char(1)                                 yes
+

@@ -1,0 +1,15 @@
+
+
+Column name          Type                                    Nulls
+
+stbn_loc             char(5)                                 yes
+stbn_bin             char(10)                                yes
+stbn_desc            char(40)                                yes
+stbn_status          char(1)                                 yes
+stbn_prod            char(40)                                yes
+stbn_bintype         char(1)                                 yes
+stbn_uput            char(1)                                 yes
+stbn_zone            char(10)                                yes
+stbn_binsize         char(1)                                 yes
+stbn_qty             float                                   yes
+

@@ -1,0 +1,21 @@
+
+
+Column name          Type                                    Nulls
+
+txrg_regref          smallint                                yes
+txrg_txregno         char(15)                                yes
+txrg_branch          char(3)                                 yes
+txrg_year            smallint                                yes
+txrg_curper          smallint                                yes
+txrg_retno           smallint                                yes
+txrg_div             char(4)                                 yes
+txrg_necvatmth       smallint                                yes
+txrg_nxecvatyr       smallint                                yes
+txrg_tx31freq        char(1)                                 yes
+txrg_salesvat        float                                   yes
+txrg_acquvat         float                                   yes
+txrg_purchvat        float                                   yes
+txrg_retreq          char(1)                                 yes
+txrg_invpost         char(1)                                 yes
+txrg_latepost        date                                    yes
+

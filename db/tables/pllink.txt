@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+pll_group            char(4)                                 yes
+pll_master           char(10)                                yes
+pll_plref            char(10)                                yes
+

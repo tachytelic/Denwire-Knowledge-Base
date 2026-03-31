@@ -1,0 +1,16 @@
+
+
+Column name          Type                                    Nulls
+
+sox_proof            integer                                 yes
+sox_seq              integer                                 yes
+sox_invref           char(8)                                 yes
+sox_ordref           char(8)                                 yes
+sox_runtime          integer                                 yes
+sox_opid             char(4)                                 yes
+sox_reason           char(1)                                 yes
+sox_txplg1           char(40)                                yes
+sox_txplg2           char(40)                                yes
+sox_nuplg1           float                                   yes
+sox_nuplg2           float                                   yes
+

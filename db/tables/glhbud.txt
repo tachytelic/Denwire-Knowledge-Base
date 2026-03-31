@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+glhb_budref          char(1)                                 yes
+glhb_desc            char(30)                                yes
+glhb_sdesc           char(10)                                yes
+

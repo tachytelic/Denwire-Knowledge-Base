@@ -1,0 +1,21 @@
+
+
+Column name          Type                                    Nulls
+
+cmtra_scomp          char(4)                                 yes
+cmtra_code           char(4)                                 yes
+cmtra_company        char(4)                                 yes
+cmtra_spdcreate      char(1)                                 yes
+cmtra_spdcust        char(1)                                 yes
+cmtra_sdqblank       char(1)                                 yes
+cmtra_sdqcust        char(1)                                 yes
+cmtra_viewstk        char(1)                                 yes
+cmtra_ordstk         char(1)                                 yes
+cmtra_autoalloc      char(1)                                 yes
+cmtra_autoresv       char(1)                                 yes
+cmtra_manalloc       char(1)                                 yes
+cmtra_islrsvstk      char(1)                                 yes
+cmtra_commissio      float                                   yes
+cmtra_status         char(1)                                 yes
+cmtra_stkrule        char(1)                                 yes
+

@@ -1,0 +1,17 @@
+
+
+Column name          Type                                    Nulls
+
+pouse_userid         char(4)                                 yes
+pouse_name           char(30)                                yes
+pouse_approve        char(1)                                 yes
+pouse_limit          float                                   yes
+pouse_nextapp        char(4)                                 yes
+pouse_prodcat        char(4)                                 yes
+pouse_budapp         char(1)                                 yes
+pouse_rsupapp        char(1)                                 yes
+pouse_usupapp        char(1)                                 yes
+pouse_reordapp       char(1)                                 yes
+pouse_npuser         char(1)                                 yes
+pouse_ndcode         char(10)                                yes
+

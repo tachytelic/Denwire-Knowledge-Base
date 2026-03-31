@@ -1,0 +1,21 @@
+
+
+Column name          Type                                    Nulls
+
+sou_user             char(4)                                 yes
+sou_ordref           char(8)                                 yes
+sou_type             char(1)                                 yes
+sou_product          char(40)                                yes
+sou_desc             char(40)                                yes
+sou_before           float                                   yes
+sou_after            float                                   yes
+sou_datover          date                                    yes
+sou_seq              integer                                 yes
+sou_proof            smallint                                yes
+sou_account          char(10)                                yes
+sou_timeover         float                                   yes
+sou_lineseq          smallint                                yes
+sou_ref              char(20)                                yes
+sou_secref           char(13)                                yes
+sou_poline           integer                                 yes
+

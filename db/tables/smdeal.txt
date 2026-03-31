@@ -1,0 +1,45 @@
+
+
+Column name          Type                                    Nulls
+
+smdea_account        char(10)                                yes
+smdea_delcode        char(5)                                 yes
+smdea_type           char(1)                                 yes
+smdea_code           char(40)                                yes
+smdea_desc           char(40)                                yes
+smdea_sbreak         char(1)                                 yes
+smdea_pricetype      char(1)                                 yes
+smdea_rate1          float                                   yes
+smdea_qty1           float                                   yes
+smdea_rate2          float                                   yes
+smdea_qty2           float                                   yes
+smdea_rate3          float                                   yes
+smdea_qty3           float                                   yes
+smdea_rate4          float                                   yes
+smdea_qty4           float                                   yes
+smdea_rate5          float                                   yes
+smdea_qty5           float                                   yes
+smdea_rate6          float                                   yes
+smdea_qty6           float                                   yes
+smdea_rate7          float                                   yes
+smdea_qty7           float                                   yes
+smdea_rate8          float                                   yes
+smdea_qty8           float                                   yes
+smdea_rate9          float                                   yes
+smdea_qty9           float                                   yes
+smdea_rate10         float                                   yes
+smdea_qty10          float                                   yes
+smdea_dteff          date                                    yes
+smdea_dtex           date                                    yes
+smdea_currency       char(4)                                 yes
+smdea_linkcurr       char(5)                                 yes
+smdea_cstbasis       float                                   yes
+smdea_salecurr       char(5)                                 yes
+smdea_linkrate       float                                   yes
+smdea_uplinkvar      float                                   yes
+smdea_lolinkvar      float                                   yes
+smdea_table          char(10)                                yes
+smdea_exterp         char(15)                                yes
+smdea_minchk         char(1)                                 yes
+smdea_multchk        char(1)                                 yes
+

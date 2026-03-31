@@ -1,0 +1,24 @@
+
+
+Column name          Type                                    Nulls
+
+sopy_ordref          char(8)                                 yes
+sopy_payref          char(8)                                 yes
+sopy_method          char(8)                                 yes
+sopy_cardnum         char(20)                                yes
+sopy_carddate        char(7)                                 yes
+sopy_author          char(20)                                yes
+sopy_payval          float                                   yes
+sopy_reference       char(15)                                yes
+sopy_issueno         smallint                                yes
+sopy_actdate         date                                    yes
+sopy_status          char(1)                                 yes
+sopy_customer        char(10)                                yes
+sopy_drbank          char(5)                                 yes
+sopy_drbran          char(20)                                yes
+sopy_drname          char(40)                                yes
+sopy_acctref         char(10)                                yes
+sopy_batch           char(6)                                 yes
+sopy_seq             serial                                  no
+sopy_paycode         char(4)                                 yes
+

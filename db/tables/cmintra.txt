@@ -1,0 +1,25 @@
+
+
+Column name          Type                                    Nulls
+
+cmi_type             char(1)                                 yes
+cmi_year             smallint                                yes
+cmi_per              smallint                                yes
+cmi_commodity        char(11)                                yes
+cmi_serial           serial                                  no
+cmi_value            float                                   yes
+cmi_delterms         char(3)                                 yes
+cmi_notc             char(2)                                 yes
+cmi_netmass          float                                   yes
+cmi_suppunits        float                                   yes
+cmi_desctry          char(2)                                 yes
+cmi_transport        char(1)                                 yes
+cmi_orgctry          char(2)                                 yes
+cmi_consig           integer                                 yes
+cmi_tradref          char(21)                                yes
+cmi_ndcode           char(10)                                yes
+cmi_srcled           char(1)                                 yes
+cmi_div              char(4)                                 yes
+cmi_printed          date                                    yes
+cmi_company          char(4)                                 yes
+

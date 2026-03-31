@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+gld_type             char(1)                                 yes
+gld_anal             char(15)                                yes
+gld_desc             char(30)                                yes
+

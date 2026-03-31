@@ -1,0 +1,26 @@
+
+
+Column name          Type                                    Nulls
+
+glm_account          char(15)                                yes
+glm_actype           char(1)                                 yes
+glm_desc             char(30)                                yes
+glm_dateopen         date                                    yes
+glm_password         char(5)                                 yes
+glm_sumflg           char(1)                                 yes
+glm_control          char(1)                                 yes
+glm_postflag         char(1)                                 yes
+glm_retain           char(15)                                yes
+glm_level            smallint                                yes
+glm_history          char(1)                                 yes
+glm_anal1            char(15)                                yes
+glm_anal2            char(15)                                yes
+glm_qtytype          char(4)                                 yes
+glm_ctypea           char(4)                                 yes
+glm_ctypeb           char(4)                                 yes
+glm_lactype          char(4)                                 yes
+glm_valtyp           char(1)                                 yes
+glm_code1            char(5)                                 yes
+glm_code2            char(5)                                 yes
+glm_code3            char(5)                                 yes
+

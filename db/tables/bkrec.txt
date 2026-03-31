@@ -1,0 +1,36 @@
+
+
+Column name          Type                                    Nulls
+
+bkr_source           char(1)                                 yes
+bkr_voucher          char(8)                                 yes
+bkr_code             char(10)                                yes
+bkr_trandate         date                                    yes
+bkr_status           char(1)                                 yes
+bkr_value            float                                   yes
+bkr_batch            char(6)                                 yes
+bkr_docref           char(8)                                 yes
+bkr_proof            smallint                                yes
+bkr_chequeno         integer                                 yes
+bkr_memo             char(20)                                yes
+bkr_trantype         char(1)                                 yes
+bkr_userid           char(4)                                 yes
+bkr_acctref          char(10)                                yes
+bkr_page             smallint                                yes
+bkr_ndcode           char(10)                                yes
+bkr_payname          char(40)                                yes
+bkr_discvalue        float                                   yes
+bkr_currency         char(4)                                 yes
+bkr_glvalue          float                                   yes
+bkr_line             integer                                 yes
+bkr_drbank           char(5)                                 yes
+bkr_drbran           char(20)                                yes
+bkr_cleardate        date                                    yes
+bkr_ccno             char(20)                                yes
+bkr_expire           char(5)                                 yes
+bkr_issueno          smallint                                yes
+bkr_location         char(6)                                 yes
+bkr_author           char(20)                                yes
+bkr_creatdate        date                                    yes
+bkr_paycode          char(4)                                 yes
+

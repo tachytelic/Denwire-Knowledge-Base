@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+strl_loc             char(5)                                 yes
+strl_product         char(15)                                yes
+strl_seq             serial                                  no
+

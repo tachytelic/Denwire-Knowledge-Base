@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+txper_year           smallint                                yes
+txper_period         smallint                                yes
+txper_desc           char(20)                                yes
+txper_perend         date                                    yes
+

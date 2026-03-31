@@ -1,0 +1,19 @@
+
+
+Column name          Type                                    Nulls
+
+pltc_code            char(4)                                 yes
+pltc_desc            char(30)                                yes
+pltc_days1           smallint                                yes
+pltc_month1          smallint                                yes
+pltc_percent1        smallfloat                              yes
+pltc_days2           smallint                                yes
+pltc_month2          smallint                                yes
+pltc_per2cent        smallfloat                              yes
+pltc_days3           smallint                                yes
+pltc_month3          smallint                                yes
+pltc_per3cent        smallfloat                              yes
+pltc_type1           char(1)                                 yes
+pltc_type2           char(1)                                 yes
+pltc_type3           char(1)                                 yes
+

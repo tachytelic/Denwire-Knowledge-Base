@@ -1,0 +1,23 @@
+
+
+Column name          Type                                    Nulls
+
+dlcsh_rep            char(4)                                 yes
+dlcsh_master         char(4)                                 yes
+dlcsh_customer       char(10)                                yes
+dlcsh_cheque         integer                                 yes
+dlcsh_tdate          date                                    yes
+dlcsh_totval         float                                   yes
+dlcsh_vatval         float                                   yes
+dlcsh_goodsval       float                                   yes
+dlcsh_ourref         char(8)                                 yes
+dlcsh_docref         char(8)                                 yes
+dlcsh_ddate          date                                    yes
+dlcsh_status         char(1)                                 yes
+dlcsh_seq            serial                                  no
+dlcsh_type           char(1)                                 yes
+dlcsh_trcurr         char(4)                                 yes
+dlcsh_trtval         float                                   yes
+dlcsh_trvval         float                                   yes
+dlcsh_trgval         float                                   yes
+

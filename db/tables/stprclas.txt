@@ -1,0 +1,12 @@
+
+
+Column name          Type                                    Nulls
+
+stpr_code            char(1)                                 yes
+stpr_desc            char(40)                                yes
+stpr_movdays         smallint                                yes
+stpr_salmult         float                                   yes
+stpr_usgpers         smallint                                yes
+stpr_properc         float                                   yes
+stpr_isstype         char(1)                                 yes
+

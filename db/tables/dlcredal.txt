@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+dlcal_credref        char(8)                                 yes
+dlcal_docref         char(13)                                yes
+dlcal_value          float                                   yes
+

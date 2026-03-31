@@ -1,0 +1,18 @@
+
+
+Column name          Type                                    Nulls
+
+pore_order           char(13)                                yes
+pore_line            smallint                                yes
+pore_retref          char(8)                                 yes
+pore_seq             integer                                 yes
+pore_product         char(15)                                yes
+pore_batch           integer                                 yes
+pore_bin             char(10)                                yes
+pore_qty             float                                   yes
+pore_suffix          smallint                                yes
+pore_grnseq          integer                                 yes
+pore_status          char(1)                                 yes
+pore_type            char(1)                                 yes
+pore_invref          char(8)                                 yes
+

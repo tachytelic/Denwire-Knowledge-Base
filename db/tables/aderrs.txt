@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+aderr_system         char(2)                                 yes
+aderr_date           date                                    yes
+aderr_type           char(1)                                 yes
+aderr_time           integer                                 yes
+aderr_user           char(4)                                 yes
+aderr_status         char(1)                                 yes
+

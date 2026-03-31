@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+sopi_pid             integer                                 yes
+sopi_ordref          char(8)                                 yes
+sopi_status          char(1)                                 yes
+sopi_loc             char(5)                                 yes
+sopi_pickdate        date                                    yes
+sopi_picktime        smallfloat                              yes
+sopi_lineno          smallint                                yes
+sopi_suffix          smallint                                yes
+sopi_bulkref         integer                                 yes
+

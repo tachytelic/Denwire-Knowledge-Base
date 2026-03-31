@@ -1,0 +1,23 @@
+
+
+Column name          Type                                    Nulls
+
+gldv_div             char(4)                                 yes
+gldv_desc            char(30)                                yes
+gldv_modifier        char(15)                                yes
+gldv_bank            char(10)                                yes
+gldv_glyear          smallint                                yes
+gldv_glper           smallint                                yes
+gldv_glsec           char(1)                                 yes
+gldv_gllevel         smallint                                yes
+gldv_plyear          smallint                                yes
+gldv_plper           smallint                                yes
+gldv_plsec           char(1)                                 yes
+gldv_pllevel         smallint                                yes
+gldv_dlyear          smallint                                yes
+gldv_dlper           smallint                                yes
+gldv_dlsec           char(1)                                 yes
+gldv_dllevel         smallint                                yes
+gldv_txregno         char(15)                                yes
+gldv_branch          char(3)                                 yes
+

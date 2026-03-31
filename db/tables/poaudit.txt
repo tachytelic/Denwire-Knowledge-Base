@@ -1,0 +1,22 @@
+
+
+Column name          Type                                    Nulls
+
+poau_order           char(13)                                yes
+poau_line            smallint                                yes
+poau_seq             smallint                                yes
+poau_chgdate         date                                    yes
+poau_fromdate        date                                    yes
+poau_todate          date                                    yes
+poau_user            char(4)                                 yes
+poau_fromqty         float                                   yes
+poau_toqty           float                                   yes
+poau_frompr          float                                   yes
+poau_topr            float                                   yes
+poau_fromdsc         float                                   yes
+poau_todsc           float                                   yes
+poau_fromrq          date                                    yes
+poau_torq            date                                    yes
+poau_fromloc         char(5)                                 yes
+poau_toloc           char(5)                                 yes
+

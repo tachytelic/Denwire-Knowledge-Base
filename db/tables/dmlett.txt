@@ -1,0 +1,17 @@
+
+
+Column name          Type                                    Nulls
+
+dml_letgrp           char(1)                                 yes
+dml_lettype          char(1)                                 yes
+dml_severe           char(1)                                 yes
+dml_desc             char(40)                                yes
+dml_textmax          smallint                                yes
+dml_beftext          char(9)                                 yes
+dml_afttext          char(9)                                 yes
+dml_days             smallint                                yes
+dml_tran             char(1)                                 yes
+dml_lang             char(4)                                 yes
+dml_justify          char(1)                                 yes
+dml_valthres         float                                   yes
+

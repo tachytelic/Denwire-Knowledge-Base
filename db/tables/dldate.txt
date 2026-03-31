@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+dld_customer         char(10)                                yes
+dld_stdate           date                                    yes
+dld_enddate          date                                    yes
+dld_dtype            char(1)                                 yes
+

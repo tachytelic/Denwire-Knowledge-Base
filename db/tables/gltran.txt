@@ -1,0 +1,28 @@
+
+
+Column name          Type                                    Nulls
+
+glt_unikey           serial                                  no
+glt_account          char(15)                                yes
+glt_year             smallint                                yes
+glt_period           smallint                                yes
+glt_trandate         date                                    yes
+glt_trantype         char(1)                                 yes
+glt_docref           char(8)                                 yes
+glt_value            float                                   yes
+glt_batch            char(6)                                 yes
+glt_ledger           char(1)                                 yes
+glt_ledacct          char(10)                                yes
+glt_contract         char(12)                                yes
+glt_comment          char(40)                                yes
+glt_proof            smallint                                yes
+glt_fproof           smallint                                yes
+glt_mendflg          char(1)                                 yes
+glt_userid           char(4)                                 yes
+glt_extdocref        char(8)                                 yes
+glt_qty              float                                   yes
+glt_codea            char(22)                                yes
+glt_codeb            char(22)                                yes
+glt_creatdate        date                                    yes
+glt_opdate           date                                    yes
+

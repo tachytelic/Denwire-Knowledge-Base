@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+adpx_ledger          char(1)                                 yes
+adpx_doctype         char(1)                                 yes
+adpx_prefix          char(4)                                 yes
+adpx_ncode           char(4)                                 yes
+

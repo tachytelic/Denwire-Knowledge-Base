@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+grrep_report         char(10)                                yes
+grrep_desc           char(40)                                yes
+grrep_round          char(1)                                 yes
+grrep_type           char(1)                                 yes
+grrep_secgrp         char(1)                                 yes
+grrep_seclev         char(1)                                 yes
+

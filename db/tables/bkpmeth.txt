@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+bkpme_type           char(1)                                 yes
+bkpme_acctref        char(10)                                yes
+bkpme_source         char(1)                                 yes
+bkpme_method         char(1)                                 yes
+bkpme_paytype        char(1)                                 yes
+bkpme_clearday       smallint                                yes
+

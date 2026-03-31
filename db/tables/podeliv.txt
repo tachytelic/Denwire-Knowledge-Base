@@ -1,0 +1,11 @@
+
+
+Column name          Type                                    Nulls
+
+podel_costmeth       char(1)                                 yes
+podel_code           char(15)                                yes
+podel_wt             char(2)                                 yes
+podel_subcode        char(4)                                 yes
+podel_seq            smallint                                yes
+podel_ndcode         char(10)                                yes
+

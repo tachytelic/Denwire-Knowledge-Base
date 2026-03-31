@@ -1,0 +1,13 @@
+
+
+Column name          Type                                    Nulls
+
+glct_ctype           char(4)                                 yes
+glct_lang            char(4)                                 yes
+glct_prompt          char(20)                                yes
+glct_valid           char(1)                                 yes
+glct_adtype          char(1)                                 yes
+glct_lower           float                                   yes
+glct_higher          float                                   yes
+glct_method          char(1)                                 yes
+

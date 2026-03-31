@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+cmd_dept             char(3)                                 yes
+cmd_section          char(3)                                 yes
+cmd_desc             char(30)                                yes
+cmd_glwip            char(15)                                yes
+cmd_wrkloc           char(5)                                 yes
+cmd_glwprof          char(15)                                yes
+cmd_gloper           char(15)                                yes
+cmd_glwoff           char(15)                                yes
+cmd_wiptcode         integer                                 yes
+

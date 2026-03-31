@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+sock_type            char(1)                                 yes
+sock_customer        char(10)                                yes
+sock_pcode           char(15)                                yes
+sock_linkcurr        char(5)                                 yes
+sock_cstbasis        float                                   yes
+sock_salecurr        char(5)                                 yes
+sock_linkrate        float                                   yes
+sock_uplinkvar       float                                   yes
+sock_lolinkvar       float                                   yes
+

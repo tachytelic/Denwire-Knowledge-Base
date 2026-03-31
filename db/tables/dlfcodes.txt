@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+dlfc_operation       char(2)                                 yes
+dlfc_debcred         char(1)                                 yes
+dlfc_movement        char(1)                                 yes
+dlfc_action          char(1)                                 yes
+dlfc_desc            char(30)                                yes
+

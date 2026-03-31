@@ -1,0 +1,31 @@
+
+
+Column name          Type                                    Nulls
+
+stmov_loc            char(5)                                 yes
+stmov_product        char(40)                                yes
+stmov_batch          integer                                 yes
+stmov_movement       integer                                 yes
+stmov_trandate       date                                    yes
+stmov_trantype       char(1)                                 yes
+stmov_docref         char(8)                                 yes
+stmov_source         char(1)                                 yes
+stmov_ledcode        char(1)                                 yes
+stmov_ledacct        char(18)                                yes
+stmov_qty            float                                   yes
+stmov_value          float                                   yes
+stmov_proof          smallint                                yes
+stmov_year           smallint                                yes
+stmov_period         smallint                                yes
+stmov_reason         char(1)                                 yes
+stmov_bin            char(10)                                yes
+stmov_status         char(1)                                 yes
+stmov_lastmov        date                                    yes
+stmov_extdocref      char(8)                                 yes
+stmov_company        char(4)                                 yes
+stmov_userid         char(4)                                 yes
+stmov_glbatch        char(6)                                 yes
+stmov_baseval        float                                   yes
+stmov_recref         char(8)                                 yes
+stmov_rreqref        char(8)                                 yes
+

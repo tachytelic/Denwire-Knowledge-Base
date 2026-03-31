@@ -1,0 +1,12 @@
+
+
+Column name          Type                                    Nulls
+
+cvr_currency         char(4)                                 yes
+cvr_effdate          date                                    yes
+cvr_rate             float                                   yes
+cvr_ratevat          float                                   yes
+cvr_xchgvar          float                                   yes
+cvr_lolinkvar        float                                   yes
+cvr_uplinkvar        float                                   yes
+

@@ -1,0 +1,21 @@
+
+
+Column name          Type                                    Nulls
+
+grq_qcode            char(10)                                yes
+grq_desc             char(30)                                yes
+grq_year             integer                                 yes
+grq_qty01            float                                   yes
+grq_qty02            float                                   yes
+grq_qty03            float                                   yes
+grq_qty04            float                                   yes
+grq_qty05            float                                   yes
+grq_qty06            float                                   yes
+grq_qty07            float                                   yes
+grq_qty08            float                                   yes
+grq_qty09            float                                   yes
+grq_qty10            float                                   yes
+grq_qty11            float                                   yes
+grq_qty12            float                                   yes
+grq_qty13            float                                   yes
+

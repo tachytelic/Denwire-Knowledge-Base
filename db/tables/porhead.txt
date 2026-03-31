@@ -1,0 +1,20 @@
+
+
+Column name          Type                                    Nulls
+
+porh_notetype        char(1)                                 yes
+porh_noteref         char(8)                                 yes
+porh_supplier        char(10)                                yes
+porh_branch          char(4)                                 yes
+porh_notedate        date                                    yes
+porh_crednote        char(8)                                 yes
+porh_status          char(1)                                 yes
+porh_compdate        date                                    yes
+porh_userid          char(4)                                 yes
+porh_div             char(4)                                 yes
+porh_author          char(1)                                 yes
+porh_authinit        char(4)                                 yes
+porh_extref          char(25)                                yes
+porh_company         char(4)                                 yes
+porh_trcurr          char(4)                                 yes
+

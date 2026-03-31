@@ -1,0 +1,23 @@
+
+
+Column name          Type                                    Nulls
+
+soco_consign         char(25)                                yes
+soco_ordref          char(8)                                 yes
+soco_suffix          smallint                                yes
+soco_pikloc          char(5)                                 yes
+soco_line            serial                                  no
+soco_contract        char(10)                                yes
+soco_carser          char(10)                                yes
+soco_delref          char(8)                                 yes
+soco_constat         char(8)                                 yes
+soco_condate         date                                    yes
+soco_contime         smallfloat                              yes
+soco_deldate         date                                    yes
+soco_deltime         smallfloat                              yes
+soco_confirmed       char(1)                                 yes
+soco_status          smallint                                yes
+soco_receiver        char(30)                                yes
+soco_colldate        date                                    yes
+soco_colltime        smallfloat                              yes
+

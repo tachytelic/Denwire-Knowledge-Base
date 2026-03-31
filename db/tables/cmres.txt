@@ -1,0 +1,9 @@
+
+
+Column name          Type                                    Nulls
+
+cmr_product          char(40)                                yes
+cmr_type             char(1)                                 yes
+cmr_resource         char(4)                                 yes
+cmr_qty              float                                   yes
+

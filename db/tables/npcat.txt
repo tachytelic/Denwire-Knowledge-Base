@@ -1,0 +1,12 @@
+
+
+Column name          Type                                    Nulls
+
+npc_cat              char(4)                                 yes
+npc_actflag          char(1)                                 yes
+npc_title            char(40)                                yes
+npc_text             char(8)                                 yes
+npc_repfreq          char(1)                                 yes
+npc_repqty           smallint                                yes
+npc_message          char(40)                                yes
+

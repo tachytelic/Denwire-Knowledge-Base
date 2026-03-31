@@ -1,0 +1,33 @@
+
+
+Column name          Type                                    Nulls
+
+strq_ref             char(8)                                 yes
+strq_extref          char(8)                                 yes
+strq_userid          char(4)                                 yes
+strq_credate         date                                    yes
+strq_costmeth        char(1)                                 yes
+strq_costcode        char(15)                                yes
+strq_wt              char(2)                                 yes
+strq_subcode         char(4)                                 yes
+strq_comcost         float                                   yes
+strq_status          char(1)                                 yes
+strq_loc             char(5)                                 yes
+strq_reqcost         float                                   yes
+strq_reqdate         date                                    yes
+strq_stockdate       date                                    yes
+strq_priority        char(1)                                 yes
+strq_suffix          smallint                                yes
+strq_held            char(1)                                 yes
+strq_compdate        date                                    yes
+strq_loadno          integer                                 yes
+strq_extstat         char(1)                                 yes
+strq_inext           char(1)                                 yes
+strq_call            char(8)                                 yes
+strq_company         char(4)                                 yes
+strq_deldate         date                                    yes
+strq_pigrp           char(3)                                 yes
+strq_vanarea         char(4)                                 yes
+strq_serlev          char(4)                                 yes
+strq_customer        char(10)                                yes
+

@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+strel_binsize        char(1)                                 yes
+strel_reelcode       char(1)                                 yes
+strel_reelqty        integer                                 yes
+strel_minqty         integer                                 yes
+strel_repunits       integer                                 yes
+

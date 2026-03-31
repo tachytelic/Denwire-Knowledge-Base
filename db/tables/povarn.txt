@@ -1,0 +1,21 @@
+
+
+Column name          Type                                    Nulls
+
+povn_type            char(1)                                 yes
+povn_order           char(13)                                yes
+povn_line            smallint                                yes
+povn_product         char(40)                                yes
+povn_supplier        char(10)                                yes
+povn_dumkey          serial                                  no
+povn_vardate         date                                    yes
+povn_quantity        float                                   yes
+povn_uom             char(1)                                 yes
+povn_price           float                                   yes
+povn_value           float                                   yes
+povn_reason          char(3)                                 yes
+povn_desc1           char(30)                                yes
+povn_desc2           char(30)                                yes
+povn_newcprice       float                                   yes
+povn_oldcprice       float                                   yes
+

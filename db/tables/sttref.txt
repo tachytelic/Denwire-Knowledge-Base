@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+sttr_ref             char(8)                                 yes
+sttr_tdate           date                                    yes
+sttr_user            char(4)                                 yes
+sttr_desc            char(40)                                yes
+sttr_loc             char(5)                                 yes
+

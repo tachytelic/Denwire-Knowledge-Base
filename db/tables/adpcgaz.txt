@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+adpc_startpc         char(8)                                 yes
+adpc_endpc           char(8)                                 yes
+adpc_posttown        char(28)                                yes
+adpc_county          char(18)                                yes
+adpc_country         char(18)                                yes
+

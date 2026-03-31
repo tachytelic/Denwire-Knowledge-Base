@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+stcc_ccat            char(1)                                 yes
+stcc_desc            char(40)                                yes
+stcc_ncust           smallint                                yes
+

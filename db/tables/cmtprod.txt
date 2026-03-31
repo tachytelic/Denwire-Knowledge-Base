@@ -1,0 +1,17 @@
+
+
+Column name          Type                                    Nulls
+
+cmt_table            char(10)                                yes
+cmt_intern           char(40)                                yes
+cmt_intuom           char(1)                                 yes
+cmt_exterp           char(40)                                yes
+cmt_extuom           char(15)                                yes
+cmt_extper           float                                   yes
+cmt_extdesc          char(40)                                yes
+cmt_codesrc          char(1)                                 yes
+cmt_type             char(1)                                 yes
+cmt_fintdef          smallint                                yes
+cmt_fextdef          smallint                                yes
+cmt_desplab          char(1)                                 yes
+

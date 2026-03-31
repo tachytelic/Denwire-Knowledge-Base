@@ -1,0 +1,21 @@
+
+
+Column name          Type                                    Nulls
+
+std_reqref           char(8)                                 yes
+std_delcode          char(4)                                 yes
+std_delname          char(40)                                yes
+std_addr1            char(30)                                yes
+std_addr2            char(30)                                yes
+std_addr3            char(30)                                yes
+std_addr4            char(30)                                yes
+std_addr5            char(30)                                yes
+std_postcode         char(10)                                yes
+std_tele             char(20)                                yes
+std_fax              char(20)                                yes
+std_repcode          char(4)                                 yes
+std_vanarea          char(4)                                 yes
+std_delmeth          char(1)                                 yes
+std_delinst          char(1)                                 yes
+std_ndcode           char(10)                                yes
+

@@ -1,0 +1,19 @@
+
+
+Column name          Type                                    Nulls
+
+ndm_ndcode           char(10)                                yes
+ndm_name             char(40)                                yes
+ndm_addr1            char(30)                                yes
+ndm_addr2            char(30)                                yes
+ndm_addr3            char(30)                                yes
+ndm_addr4            char(30)                                yes
+ndm_addr5            char(30)                                yes
+ndm_postcode         char(10)                                yes
+ndm_telephone        char(20)                                yes
+ndm_telex            char(20)                                yes
+ndm_lastdate         date                                    yes
+ndm_addtype          char(10)                                yes
+ndm_lasttime         integer                                 yes
+ndm_email            char(60)                                yes
+

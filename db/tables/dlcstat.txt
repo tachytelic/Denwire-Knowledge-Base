@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+dlcs_customer        char(10)                                yes
+dlcs_trcurr          char(4)                                 yes
+dlcs_year            smallint                                yes
+dlcs_period          smallint                                yes
+dlcs_totsales        float                                   yes
+dlcs_bfdsales        float                                   yes
+dlcs_others          float                                   yes
+dlcs_cash            float                                   yes
+dlcs_balance         float                                   yes
+

@@ -1,0 +1,16 @@
+
+
+Column name          Type                                    Nulls
+
+adnr_ncode           char(4)                                 yes
+adnr_ltype           char(1)                                 yes
+adnr_label           char(10)                                yes
+adnr_ljob            char(10)                                yes
+adnr_lsubcode        char(4)                                 yes
+adnr_nextnr          integer                                 yes
+adnr_numlen          smallint                                yes
+adnr_rstart          integer                                 yes
+adnr_rstop           integer                                 yes
+adnr_rwarn           integer                                 yes
+adnr_rdesc           char(40)                                yes
+

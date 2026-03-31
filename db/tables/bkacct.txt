@@ -1,0 +1,45 @@
+
+
+Column name          Type                                    Nulls
+
+bka_acctref          char(10)                                yes
+bka_banksort         char(8)                                 yes
+bka_acctno           char(35)                                yes
+bka_balance          float                                   yes
+bka_stbalance        float                                   yes
+bka_stdate           date                                    yes
+bka_lastpage         smallint                                yes
+bka_reconbal         float                                   yes
+bka_recdate          date                                    yes
+bka_glaccount        char(15)                                yes
+bka_acctname         char(40)                                yes
+bka_userno           char(6)                                 yes
+bka_accttype         char(1)                                 yes
+bka_bacdev           char(40)                                yes
+bka_password         char(9)                                 yes
+bka_limit            float                                   yes
+bka_giro             char(1)                                 yes
+bka_subno            smallint                                yes
+bka_pwd1             char(7)                                 yes
+bka_pwd2             char(7)                                 yes
+bka_pwd3             char(7)                                 yes
+bka_ldate            date                                    yes
+bka_owncomp          char(4)                                 yes
+bka_currency         char(4)                                 yes
+bka_glvalue          float                                   yes
+bka_docheq           integer                                 yes
+bka_owndiv           char(4)                                 yes
+bka_usediv           char(4)                                 yes
+bka_depsusp          char(1)                                 yes
+bka_ccard            char(1)                                 yes
+bka_commiss          float                                   yes
+bka_netcomm          char(1)                                 yes
+bka_ribabal          float                                   yes
+bka_credlim          float                                   yes
+bka_overrate         smallfloat                              yes
+bka_addorate         smallfloat                              yes
+bka_overval          float                                   yes
+bka_factored         char(1)                                 yes
+bka_factcomp         char(10)                                yes
+bka_subnum           smallint                                yes
+

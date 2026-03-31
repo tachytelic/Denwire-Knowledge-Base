@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+cmx_element          smallint                                yes
+cmx_code             char(10)                                yes
+cmx_product          char(22)                                yes
+

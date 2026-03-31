@@ -1,0 +1,21 @@
+
+
+Column name          Type                                    Nulls
+
+glab_account         char(15)                                yes
+glab_year            smallint                                yes
+glab_budref          char(1)                                 yes
+glab_p1bud           float                                   yes
+glab_p2bud           float                                   yes
+glab_p3bud           float                                   yes
+glab_p4bud           float                                   yes
+glab_p5bud           float                                   yes
+glab_p6bud           float                                   yes
+glab_p7bud           float                                   yes
+glab_p8bud           float                                   yes
+glab_p9bud           float                                   yes
+glab_p10bud          float                                   yes
+glab_p11bud          float                                   yes
+glab_p12bud          float                                   yes
+glab_p13bud          float                                   yes
+

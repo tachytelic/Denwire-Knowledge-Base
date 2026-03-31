@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+plgrp_type           char(4)                                 yes
+plgrp_desc           char(40)                                yes
+plgrp_defalt         char(1)                                 yes
+

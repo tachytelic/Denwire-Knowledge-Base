@@ -1,0 +1,17 @@
+
+
+Column name          Type                                    Nulls
+
+bkc_seq              serial                                  no
+bkc_acctref          char(10)                                yes
+bkc_chequeno         integer                                 yes
+bkc_date             date                                    yes
+bkc_payee            char(10)                                yes
+bkc_value            float                                   yes
+bkc_source           char(1)                                 yes
+bkc_voucher          char(8)                                 yes
+bkc_status           char(1)                                 yes
+bkc_ndcode           char(10)                                yes
+bkc_payname          char(40)                                yes
+bkc_currency         char(4)                                 yes
+

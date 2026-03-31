@@ -1,0 +1,20 @@
+
+
+Column name          Type                                    Nulls
+
+lcov_shipref         char(8)                                 yes
+lcov_costtype        char(1)                                 yes
+lcov_line            smallint                                yes
+lcov_seq             smallint                                yes
+lcov_cost            float                                   yes
+lcov_alloccost       float                                   yes
+lcov_stockacc        char(1)                                 yes
+lcov_glacc           char(15)                                yes
+lcov_glunall         char(15)                                yes
+lcov_desc            char(30)                                yes
+lcov_allocby         char(1)                                 yes
+lcov_calmeth         char(1)                                 yes
+lcov_calcrate        char(1)                                 yes
+lcov_calcperc        smallfloat                              yes
+lcov_posted          char(1)                                 yes
+

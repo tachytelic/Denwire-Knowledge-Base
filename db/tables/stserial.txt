@@ -1,0 +1,33 @@
+
+
+Column name          Type                                    Nulls
+
+sts_loc              char(5)                                 yes
+sts_product          char(40)                                yes
+sts_batch            integer                                 yes
+sts_bin              char(10)                                yes
+sts_serial           char(22)                                yes
+sts_qty              integer                                 yes
+sts_status           char(1)                                 yes
+sts_narr             char(40)                                yes
+sts_isource          char(1)                                 yes
+sts_idocref          char(8)                                 yes
+sts_iline            smallint                                yes
+sts_iseq             smallint                                yes
+sts_issued           date                                    yes
+sts_rsource          char(1)                                 yes
+sts_rdocref          char(8)                                 yes
+sts_rline            smallint                                yes
+sts_rseq             smallint                                yes
+sts_recdate          date                                    yes
+sts_cost             float                                   yes
+sts_sellpr           float                                   yes
+sts_recwarr          char(10)                                yes
+sts_isswarr          char(10)                                yes
+sts_recexp           date                                    yes
+sts_issexp           date                                    yes
+sts_recxexp          date                                    yes
+sts_issxexp          date                                    yes
+sts_expdate          date                                    yes
+sts_bascost          float                                   yes
+

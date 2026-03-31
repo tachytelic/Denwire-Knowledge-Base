@@ -1,0 +1,10 @@
+
+
+Column name          Type                                    Nulls
+
+pobn_order           char(13)                                yes
+pobn_line            smallint                                yes
+pobn_seq             smallint                                yes
+pobn_bin             char(10)                                yes
+pobn_qty             float                                   yes
+

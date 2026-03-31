@@ -1,0 +1,28 @@
+
+
+Column name          Type                                    Nulls
+
+glh_unikey           serial                                  no
+glh_account          char(15)                                yes
+glh_year             smallint                                yes
+glh_period           smallint                                yes
+glh_trandate         date                                    yes
+glh_trantype         char(1)                                 yes
+glh_docref           char(8)                                 yes
+glh_value            float                                   yes
+glh_batch            char(6)                                 yes
+glh_ledger           char(1)                                 yes
+glh_ledacct          char(10)                                yes
+glh_contract         char(12)                                yes
+glh_comment          char(40)                                yes
+glh_proof            smallint                                yes
+glh_fproof           smallint                                yes
+glh_mendflg          char(1)                                 yes
+glh_userid           char(4)                                 yes
+glh_extdocref        char(8)                                 yes
+glh_qty              float                                   yes
+glh_codea            char(22)                                yes
+glh_codeb            char(22)                                yes
+glh_creatdate        date                                    yes
+glh_opdate           date                                    yes
+

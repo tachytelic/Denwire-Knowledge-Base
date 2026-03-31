@@ -1,0 +1,14 @@
+
+
+Column name          Type                                    Nulls
+
+plcs_supplier        char(10)                                yes
+plcs_trcurr          char(4)                                 yes
+plcs_year            smallint                                yes
+plcs_period          smallint                                yes
+plcs_totpurch        float                                   yes
+plcs_bfdpurch        float                                   yes
+plcs_others          float                                   yes
+plcs_cash            float                                   yes
+plcs_balance         float                                   yes
+

@@ -1,0 +1,52 @@
+
+
+Column name          Type                                    Nulls
+
+sodl_trcode          char(1)                                 yes
+sodl_deldesc         char(30)                                yes
+sodl_pcode           char(40)                                yes
+sodl_area            char(4)                                 yes
+sodl_pgroup          char(4)                                 yes
+sodl_brk1            float                                   yes
+sodl_brk2            float                                   yes
+sodl_brk3            float                                   yes
+sodl_brk4            float                                   yes
+sodl_brk5            float                                   yes
+sodl_brk6            float                                   yes
+sodl_brk7            float                                   yes
+sodl_brk8            float                                   yes
+sodl_brk9            float                                   yes
+sodl_brk10           float                                   yes
+sodl_brk11           float                                   yes
+sodl_brk12           float                                   yes
+sodl_brk13           float                                   yes
+sodl_brk14           float                                   yes
+sodl_del1            float                                   yes
+sodl_del2            float                                   yes
+sodl_del3            float                                   yes
+sodl_del4            float                                   yes
+sodl_del5            float                                   yes
+sodl_del6            float                                   yes
+sodl_del7            float                                   yes
+sodl_del8            float                                   yes
+sodl_del9            float                                   yes
+sodl_del10           float                                   yes
+sodl_del11           float                                   yes
+sodl_del12           float                                   yes
+sodl_del13           float                                   yes
+sodl_del14           float                                   yes
+sodl_cost1           float                                   yes
+sodl_cost2           float                                   yes
+sodl_cost3           float                                   yes
+sodl_cost4           float                                   yes
+sodl_costs5          float                                   yes
+sodl_costs6          float                                   yes
+sodl_costs7          float                                   yes
+sodl_costs8          float                                   yes
+sodl_costs9          float                                   yes
+sodl_costs10         float                                   yes
+sodl_cost11          float                                   yes
+sodl_cost12          float                                   yes
+sodl_cost13          float                                   yes
+sodl_cost14          float                                   yes
+

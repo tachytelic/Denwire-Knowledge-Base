@@ -1,0 +1,8 @@
+
+
+Column name          Type                                    Nulls
+
+stca_cat             char(1)                                 yes
+stca_desc            char(40)                                yes
+stca_limper          float                                   yes
+
